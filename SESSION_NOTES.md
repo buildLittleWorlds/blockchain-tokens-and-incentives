@@ -22,11 +22,7 @@
 
 ### What Remains (Session 2)
 
-| # | Title | Description |
-|---|-------|-------------|
-| 06 | Liquidity and AMMs | Constant product formula (x*y=k). Uniswap-style pool implementation. Guild commodity trading with automated pricing. Impermanent loss analysis. |
-| 07 | MEV and Front-Running | Miner/Maximum Extractable Value. Simulate front-running and sandwich attacks on guild trades. Detection strategies. Flashbots-style ordering. |
-| 08 | Capstone: The Guild Economy | Complete token economy simulation: guild membership tokens (ERC-20), staked reputation with slashing, AMM for commodity trading, 1000-round simulation, system health metrics (Gini, collusion risk, participation). |
+*Completed — see Session 2 below.*
 
 ### Design Decisions Made
 
@@ -46,26 +42,37 @@
 | 04 | `ERC20` class (full standard), `ERC721` class (full standard), `ERC1155` sketch, Gini coefficient, Lorenz curves |
 | 05 | `StakingContract` class (stake/process_epoch/slashing), ICP lockup model, `DelegatedStaking` class, Monte Carlo IC verification |
 
-### Continuation Prompt
+---
 
-```
-I'm continuing Course 05 (Tokens and Incentive Design) in the blockchain series. This is session 2 of 2.
+## Session 2 (2026-02-10)
 
-Read SESSION_NOTES.md in courses/blockchain-series/05-tokens-and-incentives/ for full context.
+### What Was Built
 
-Session 1 built tutorials 01-05 (~179 KB). This session builds tutorials 06-08.
+| # | Notebook | Status |
+|---|----------|--------|
+| 06 | tutorial_06_liquidity_and_amms.ipynb | Complete |
+| 07 | tutorial_07_mev_and_front_running.ipynb | Complete |
+| 08 | tutorial_08_capstone_the_guild_economy.ipynb | Complete |
 
-Notebooks to build:
-| # | Title | Description |
-|---|-------|-------------|
-| 06 | Liquidity and AMMs | Constant product formula (x*y=k), Uniswap-style pool, guild commodity trading, impermanent loss |
-| 07 | MEV and Front-Running | MEV types, front-running/sandwich attacks, detection strategies, Flashbots ordering |
-| 08 | Capstone: The Guild Economy | Complete token economy: ERC-20 membership, staked reputation, AMM trading, 1000-round simulation, system health |
+### Also Updated
+- `README.md` — Updated with Colab badges for tutorials 06-08, added AMM/MEV/capstone concepts
 
-Datasets already generated (use from GitHub BASE_URL):
-- amm_liquidity_pools.csv (200 rows) — for Tutorial 06
-- mev_extraction_log.csv (150 rows) — for Tutorial 07
-- All 5 datasets — for Tutorial 08 capstone
+### Design Decisions Made
 
-After building, update README.md (fill in tutorials 06-08 Colab badges), git commit + push to buildLittleWorlds/blockchain-tokens-and-incentives.
-```
+1. **Tutorial 06 builds a full `ConstantProductAMM` class** with swap_a_for_b/swap_b_for_a, add_liquidity/remove_liquidity, LP token tracking, and fee collection. Impermanent loss formula (2√r/(1+r) - 1) is derived and validated against the dataset. Arbitrage function demonstrates price discovery.
+2. **Tutorial 07 implements `SimpleAMM` for MEV demonstrations** — front-running and sandwich attack simulations with detailed profit/victim-loss accounting. `FairOrderingSimulator` compares FIFO, attacker-optimal, and random ordering. Detection heuristics for sandwich and front-run patterns.
+3. **Tutorial 08 capstone runs 30 agents for 1,000 rounds** with three strategies (60% honest, 25% opportunistic, 15% predatory). Four economy layers: GuildToken (ERC-20), ReputationSystem (staking/slashing), CommodityPool (AMM), and MEV extraction. System health dashboard tracks Gini, participation, collusion risk, TVL, and composite health score.
+4. **Cross-dataset validation** in Tutorial 08 compares simulation patterns to all 5 pre-generated datasets, validating that staking-based detection outperforms historical enforcement and that honest strategies dominate.
+5. **Parameter sensitivity exercises** test slash rate variations and adversarial scenarios (50% predatory population) to show system resilience.
+
+### Key Classes and Functions Built
+
+| Notebook | Key Implementations |
+|----------|-------------------|
+| 06 | `ConstantProductAMM` class (full Uniswap V2 model), `impermanent_loss()`, `compute_arbitrage()`, slippage analysis |
+| 07 | `SimpleAMM` class (MEV demo), `simulate_sandwich()`, `detect_sandwich()`, `detect_front_runs()`, `FairOrderingSimulator` class |
+| 08 | `GuildToken` class, `ReputationSystem` class, `CommodityPool` class, `GuildAgent` class, `GuildEconomy` class (full simulation engine), `compute_health_score()` |
+
+### Course Status
+
+**COMPLETE.** All 8 tutorials built across 2 sessions. Course covers the full arc from Prisoner's Dilemma through agent-based economic simulation.

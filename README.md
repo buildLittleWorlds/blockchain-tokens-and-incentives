@@ -22,6 +22,9 @@ This course teaches **mechanism design, game theory, and token economics** throu
 - ERC-20 (fungible) and ERC-721 (non-fungible) token standards
 - Proof of Stake: staking contracts, lockup multipliers, slashing conditions
 - ICP's 8-year lockup model with reward scaling
+- Automated Market Makers: constant product formula (x*y=k), impermanent loss
+- MEV: front-running, sandwich attacks, Flashbots-style fair ordering
+- Agent-based economic simulation with system health metrics
 
 **Key Character:** Brenn Auster, a cynical but effective economist who replaced guild honor with mathematical self-enforcement. His incentive reform transformed the Traders Guild from a trust-based system to a stake-based one.
 
@@ -46,13 +49,13 @@ This course teaches **mechanism design, game theory, and token economics** throu
 | 4 | Token Standards (ERC-20, ERC-721) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/blockchain-tokens-and-incentives/blob/main/notebooks/tutorial_04_token_standards.ipynb) | Fungible and non-fungible tokens, guild economy, Gini coefficient |
 | 5 | Staking and Slashing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/blockchain-tokens-and-incentives/blob/main/notebooks/tutorial_05_staking_and_slashing.ipynb) | Staking contracts, ICP lockup model, slashing analysis, delegation |
 
-**Session 2 (Tutorials 06-08):** Coming soon — Liquidity and AMMs, MEV, and the Guild Economy capstone.
+**Session 2 (Tutorials 06-08):** Complete — AMMs, MEV, and the Guild Economy capstone.
 
 | # | Tutorial | Notebook | Description |
 |---|----------|----------|-------------|
-| 6 | Liquidity and AMMs | *Coming soon* | Constant product formula (x*y=k), Uniswap-style pools, guild commodity trading |
-| 7 | MEV and Front-Running | *Coming soon* | Miner Extractable Value, front-running attacks, sandwich attacks on guild trades |
-| 8 | Capstone: The Guild Economy | *Coming soon* | Complete token economy: membership tokens, staked reputation, AMM, 1000-round simulation |
+| 6 | Liquidity and AMMs | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/blockchain-tokens-and-incentives/blob/main/notebooks/tutorial_06_liquidity_and_amms.ipynb) | Constant product formula (x*y=k), Uniswap-style pools, impermanent loss, guild commodity trading |
+| 7 | MEV and Front-Running | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/blockchain-tokens-and-incentives/blob/main/notebooks/tutorial_07_mev_and_front_running.ipynb) | Miner Extractable Value, front-running attacks, sandwich attacks, Flashbots ordering |
+| 8 | Capstone: The Guild Economy | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/blockchain-tokens-and-incentives/blob/main/notebooks/tutorial_08_capstone_the_guild_economy.ipynb) | Complete token economy: 30 agents, staked reputation, AMM trading, 1000-round simulation |
 
 ---
 
@@ -87,6 +90,9 @@ This course teaches **mechanism design, game theory, and token economics** throu
 | 03 | Mechanism design | How to engineer games where honesty is dominant |
 | 04 | Token standards | How to represent value as programmable state |
 | 05 | Staking/slashing | How to make dishonesty expensive |
+| 06 | AMMs | How to trade without trusted market-makers |
+| 07 | MEV | What happens when validators see the queue |
+| 08 | Complete economy | Does it all work together? (Yes.) |
 
 ### Connection to Blockchain
 
@@ -98,6 +104,9 @@ This course teaches **mechanism design, game theory, and token economics** throu
 | Staked reputation | Proof of Stake |
 | Lockup multipliers | ICP's 8-year neuron model |
 | Inspector slashing | Validator slashing (Ethereum 2.0) |
+| Commodity pools | Uniswap V2 AMMs |
+| Trade queue manipulation | Miner Extractable Value (MEV) |
+| Fair ordering proposals | Flashbots / MEV-Share |
 
 ---
 
