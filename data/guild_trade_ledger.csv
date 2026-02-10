@@ -1,0 +1,601 @@
+trade_id,year,month,seller,buyer,commodity,quantity,agreed_price,total_value,trade_route,outcome,dispute_type,fraud_detected,inspector_involved,inspector,inspector_ruling,dens_proximity
+TRD-0001,880,2,Brenn Auster,Linna Cors,dye_indigo,44,86.81,3819.64,Western-Threshold,completed,quality,False,False,,,0.3
+TRD-0002,861,1,Kellis Vorn,Quonxy,clay_ceramic,36,26.02,936.72,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0003,877,7,Quonxy,Erris Pol,dye_indigo,11,104.83,1153.13,Capital-Western,completed,none,False,False,,,0.1
+TRD-0004,864,4,Linna Cors,Yasho Krent,salt_crystal,23,28.56,656.88,Capital-Northern,completed,timing,False,False,,,0.1
+TRD-0005,874,9,Tessyn Mord,Rellen Voss,amber_resin,41,77.97,3196.77,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0006,878,4,Merik Pahl,Kellis Vorn,manuscript_vellum,19,106.94,2031.86,Eastern-Mirado,defaulted,non_delivery,False,True,Kelleth Mund,split_liability,0.5
+TRD-0007,874,11,Sorel Dunn,Boffa Trent,wool_highland,45,44.13,1985.85,Densmok-Threshold,defaulted,goods_destroyed,True,True,Kellis Vorn,inspector_bribed,0.6
+TRD-0008,867,3,Sareth Moll,Pemlik Tross,dye_indigo,15,102.15,1532.25,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0009,861,4,Sorel Dunn,Torren Gael,leather_tanned,14,45.35,634.9,Capital-Mirado,disputed,substitution,True,True,Quonxy,insufficient_evidence,0.1
+TRD-0010,880,8,Mollen Vek,Grigsu Haldo,timber_cedar,48,90.35,4336.8,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0011,872,6,Quonxy,Mollen Vek,grain_winter,8,22.05,176.4,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0012,873,10,Kellis Vorn,Rellen Voss,stone_quarried,36,70.61,2541.96,Threshold-Southern,disputed,quality,False,True,Torren Gael,inspector_bribed,0.9
+TRD-0013,868,11,Yasho Krent,Tessyn Mord,glass_blown,1,60.43,60.43,Capital-Mirado,defaulted,goods_destroyed,True,True,Vagabu Olt,buyer_liable,0.1
+TRD-0014,876,2,Pella Marsh,Hask Berrol,glass_blown,13,70.21,912.73,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0015,877,9,Tommen Brae,Brenn Auster,leather_tanned,24,40.39,969.36,Western-Southern,disputed,substitution,True,True,Tessyn Mord,inspector_bribed,0.3
+TRD-0016,862,2,Josten Dray,Erris Pol,amber_resin,9,94.04,846.36,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0017,865,5,Archon Vells,Wick Hollat,wax_beeswax,45,135.64,6103.8,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0018,880,6,Sareth Moll,Tommen Brae,oil_lamp,5,40.46,202.3,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0019,867,10,Quonxy,Brenn Auster,amber_resin,15,89.46,1341.9,Capital-Eastern,completed,none,False,True,Serath Kyne,,0.1
+TRD-0020,862,9,Quonxy,Grigsu Haldo,grain_winter,37,28.52,1055.24,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0021,875,7,Kelleth Mund,Tessyn Mord,salt_crystal,28,29.17,816.76,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0022,861,11,Hask Berrol,Trinne Goss,salt_crystal,22,28.83,634.26,Capital-Western,completed,quality,False,False,,,0.1
+TRD-0023,866,9,Sareth Moll,Mollen Vek,wax_beeswax,5,53.98,269.9,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0024,877,2,Torren Gael,Trinne Goss,iron_ore,16,52.67,842.72,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0025,866,7,Wick Hollat,Torren Gael,wool_highland,25,32.03,800.75,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0026,874,5,Rellen Voss,Josten Dray,grain_winter,4,15.11,60.44,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0027,870,1,Torren Gael,Vornis Keth,grain_winter,34,23.36,794.24,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0028,862,3,Kellis Vorn,Hask Berrol,amber_resin,26,97.3,2529.8,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0029,867,10,Vornis Keth,Torren Gael,amber_resin,37,90.35,3342.95,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0030,866,11,Merik Pahl,Yasho Krent,clay_ceramic,20,27.16,543.2,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0031,862,1,Sareth Moll,Hask Berrol,salt_crystal,33,30.45,1004.85,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0032,862,4,Boffa Trent,Grigsu Haldo,wool_highland,46,45.34,2085.64,Western-Southern,completed,none,False,False,,,0.3
+TRD-0033,880,9,Brenn Auster,Merik Pahl,glass_blown,9,58.9,530.1,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0034,877,3,Vagabu Olt,Yasho Krent,copper_ingot,44,56.23,2474.12,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0035,875,5,Wick Hollat,Pella Marsh,manuscript_vellum,18,126.45,2276.1,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0036,864,11,Vagabu Olt,Serath Kyne,oil_lamp,36,48.7,1753.2,Northern-Eastern,completed,none,False,True,Kellis Vorn,,0.4
+TRD-0037,877,1,Sorel Dunn,Boffa Trent,timber_cedar,20,46.8,936.0,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0038,861,6,Kelleth Mund,Merik Pahl,clay_ceramic,50,21.03,1051.5,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0039,879,12,Mollen Vek,Vagabu Olt,wool_highland,48,45.52,2184.96,Capital-Densmok,disputed,non_delivery,False,True,Tessyn Mord,split_liability,0.1
+TRD-0040,865,12,Tessyn Mord,Rellen Voss,manuscript_vellum,30,106.68,3200.4,Western-Southern,completed,none,False,False,,,0.3
+TRD-0041,867,4,Brenn Auster,Merik Pahl,copper_ingot,5,55.88,279.4,Capital-Mirado,defaulted,absconded,True,True,Vagabu Olt,insufficient_evidence,0.1
+TRD-0042,877,6,Brenn Auster,Mollen Vek,dye_indigo,3,132.02,396.06,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0043,870,7,Vornis Keth,Archon Vells,salt_crystal,13,34.79,452.27,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0044,860,9,Tommen Brae,Brev Tannik,copper_ingot,22,81.17,1785.74,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0045,863,12,Wick Hollat,Grigsu Haldo,glass_blown,26,67.44,1753.44,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0046,866,7,Trinne Goss,Pemlik Tross,wool_highland,1,52.11,52.11,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0047,878,10,Hask Berrol,Yasho Krent,oil_lamp,14,43.96,615.44,Western-Southern,completed,none,False,False,,,0.3
+TRD-0048,865,11,Kellis Vorn,Yasho Krent,leather_tanned,49,56.37,2762.13,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0049,866,3,Brenn Auster,Kellis Vorn,clay_ceramic,50,26.11,1305.5,Western-Southern,completed,none,False,False,,,0.3
+TRD-0050,880,10,Kelleth Mund,Josten Dray,stone_quarried,10,33.6,336.0,Western-Southern,completed,none,False,True,Torren Gael,,0.3
+TRD-0051,873,4,Serath Kyne,Sorel Dunn,oil_lamp,8,46.03,368.24,Capital-Western,completed,none,False,False,,,0.1
+TRD-0052,876,9,Vornis Keth,Yasho Krent,oil_lamp,28,89.67,2510.76,Threshold-Southern,completed,price,False,False,,,0.9
+TRD-0053,875,8,Vagabu Olt,Brev Tannik,clay_ceramic,50,22.77,1138.5,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0054,868,8,Kellis Vorn,Josten Dray,glass_blown,35,58.95,2063.25,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0055,872,12,Mollen Vek,Josten Dray,copper_ingot,22,57.96,1275.12,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0056,866,7,Pemlik Tross,Tommen Brae,iron_ore,23,38.65,888.95,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0057,873,9,Josten Dray,Linna Cors,clay_ceramic,28,22.19,621.32,Western-Southern,completed,none,False,False,,,0.3
+TRD-0058,872,12,Serath Kyne,Pella Marsh,oil_lamp,26,67.72,1760.72,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0059,862,11,Rellen Voss,Mollen Vek,oil_lamp,14,31.7,443.8,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0060,872,5,Linna Cors,Pella Marsh,wax_beeswax,48,87.86,4217.28,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0061,871,4,Hask Berrol,Kellis Vorn,manuscript_vellum,13,141.58,1840.54,Capital-Western,completed,quantity,False,False,,,0.1
+TRD-0062,875,11,Tessyn Mord,Vornis Keth,copper_ingot,50,64.79,3239.5,Western-Southern,completed,none,False,False,,,0.3
+TRD-0063,863,3,Grigsu Haldo,Tessyn Mord,iron_ore,25,60.75,1518.75,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0064,862,10,Merik Pahl,Pella Marsh,clay_ceramic,20,26.97,539.4,Capital-Northern,disputed,quality,False,True,Grigsu Haldo,seller_liable,0.1
+TRD-0065,871,9,Rellen Voss,Merik Pahl,spice_blend,22,110.26,2425.72,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0066,875,2,Rellen Voss,Boffa Trent,oil_lamp,12,38.75,465.0,Capital-Eastern,completed,timing,False,False,,,0.1
+TRD-0067,877,8,Sareth Moll,Rellen Voss,dye_indigo,6,191.21,1147.26,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0068,874,10,Vornis Keth,Merik Pahl,stone_quarried,12,21.67,260.04,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0069,868,6,Vagabu Olt,Tommen Brae,dye_indigo,13,76.39,993.07,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0070,875,9,Linna Cors,Quonxy,grain_winter,29,21.69,629.01,Eastern-Mirado,completed,quality,False,False,,,0.5
+TRD-0071,872,12,Quonxy,Yasho Krent,spice_blend,23,112.35,2584.05,Western-Southern,completed,none,False,False,,,0.3
+TRD-0072,870,6,Merik Pahl,Sareth Moll,dye_indigo,13,72.62,944.06,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0073,865,4,Kelleth Mund,Linna Cors,grain_winter,34,30.47,1035.98,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0074,866,5,Quonxy,Pemlik Tross,wool_highland,18,28.84,519.12,Northern-Densmok,completed,none,False,True,Mollen Vek,,0.4
+TRD-0075,864,11,Pella Marsh,Linna Cors,grain_winter,37,22.98,850.26,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0076,870,3,Torren Gael,Grigsu Haldo,grain_winter,26,22.58,587.08,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0077,861,3,Mollen Vek,Sorel Dunn,glass_blown,8,83.83,670.64,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0078,879,10,Quonxy,Brev Tannik,stone_quarried,20,40.72,814.4,Western-Southern,disputed,non_delivery,True,True,Grigsu Haldo,seller_liable,0.3
+TRD-0079,879,12,Tessyn Mord,Brev Tannik,copper_ingot,43,53.06,2281.58,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0080,877,2,Serath Kyne,Brenn Auster,wax_beeswax,31,69.92,2167.52,Western-Southern,completed,none,False,False,,,0.3
+TRD-0081,869,12,Pella Marsh,Sareth Moll,amber_resin,17,75.94,1290.98,Eastern-Mirado,completed,quantity,False,False,,,0.5
+TRD-0082,877,4,Hask Berrol,Mollen Vek,dye_indigo,20,62.32,1246.4,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0083,869,8,Tessyn Mord,Erris Pol,glass_blown,18,67.27,1210.86,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0084,862,10,Torren Gael,Tommen Brae,wax_beeswax,17,60.38,1026.46,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0085,878,10,Brenn Auster,Brev Tannik,dye_indigo,31,58.69,1819.39,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0086,868,3,Dessa Morin,Rellen Voss,grain_winter,27,19.76,533.52,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0087,865,6,Rellen Voss,Josten Dray,grain_winter,49,23.62,1157.38,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0088,870,5,Yasho Krent,Tessyn Mord,stone_quarried,1,39.55,39.55,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0089,873,1,Kelleth Mund,Kella Vorn,spice_blend,49,188.83,9252.67,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0090,864,5,Sareth Moll,Tommen Brae,grain_winter,41,16.23,665.43,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0091,865,5,Kella Vorn,Brenn Auster,wax_beeswax,8,57.84,462.72,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0092,864,8,Tommen Brae,Merik Pahl,glass_blown,27,75.75,2045.25,Northern-Eastern,completed,price,False,False,,,0.4
+TRD-0093,877,3,Pemlik Tross,Kelleth Mund,timber_cedar,27,50.08,1352.16,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0094,868,1,Grigsu Haldo,Linna Cors,glass_blown,10,102.03,1020.3,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0095,870,9,Linna Cors,Kella Vorn,stone_quarried,13,41.06,533.78,Western-Southern,defaulted,non_delivery,True,True,Tessyn Mord,insufficient_evidence,0.3
+TRD-0096,861,6,Josten Dray,Erris Pol,stone_quarried,42,41.84,1757.28,Capital-Mirado,defaulted,absconded,False,True,Kellis Vorn,inspector_bribed,0.1
+TRD-0097,878,6,Pella Marsh,Tessyn Mord,oil_lamp,30,45.47,1364.1,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0098,880,3,Kellis Vorn,Archon Vells,dye_indigo,6,130.72,784.32,Densmok-Threshold,disputed,non_delivery,False,True,Quonxy,inspector_bribed,0.6
+TRD-0099,861,10,Kellis Vorn,Vagabu Olt,glass_blown,7,110.42,772.94,Western-Threshold,completed,quality,False,False,,,0.3
+TRD-0100,869,1,Torren Gael,Boffa Trent,manuscript_vellum,16,115.13,1842.08,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0101,865,3,Serath Kyne,Kellis Vorn,stone_quarried,38,53.31,2025.78,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0102,868,8,Vagabu Olt,Merik Pahl,iron_ore,44,52.22,2297.68,Western-Southern,completed,none,False,True,Serath Kyne,,0.3
+TRD-0103,878,5,Hask Berrol,Rellen Voss,dye_indigo,13,108.12,1405.56,Western-Southern,defaulted,absconded,True,True,Kelleth Mund,inspector_bribed,0.3
+TRD-0104,871,10,Grigsu Haldo,Josten Dray,glass_blown,43,83.38,3585.34,Capital-Western,completed,none,False,True,Brenn Auster,,0.1
+TRD-0105,879,12,Erris Pol,Pella Marsh,glass_blown,41,92.91,3809.31,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0106,864,11,Tessyn Mord,Tommen Brae,manuscript_vellum,24,129.9,3117.6,Northern-Densmok,completed,quality,False,False,,,0.4
+TRD-0107,870,12,Rellen Voss,Serath Kyne,copper_ingot,24,91.76,2202.24,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0108,865,5,Tommen Brae,Sorel Dunn,grain_winter,8,24.27,194.16,Northern-Densmok,completed,none,False,True,Tessyn Mord,,0.4
+TRD-0109,872,9,Boffa Trent,Kellis Vorn,stone_quarried,8,31.7,253.6,Capital-Western,completed,none,False,False,,,0.1
+TRD-0110,868,10,Pemlik Tross,Pella Marsh,spice_blend,31,117.69,3648.39,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0111,877,6,Tommen Brae,Vornis Keth,clay_ceramic,30,20.63,618.9,Eastern-Mirado,disputed,substitution,False,True,Torren Gael,buyer_liable,0.5
+TRD-0112,861,1,Grigsu Haldo,Archon Vells,salt_crystal,35,26.82,938.7,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0113,877,7,Dessa Morin,Linna Cors,timber_cedar,32,58.41,1869.12,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0114,868,1,Merik Pahl,Boffa Trent,copper_ingot,16,58.67,938.72,Western-Southern,disputed,quality,False,True,Serath Kyne,inspector_bribed,0.3
+TRD-0115,880,6,Torren Gael,Rellen Voss,dye_indigo,30,218.78,6563.4,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0116,880,10,Brenn Auster,Kellis Vorn,leather_tanned,14,110.54,1547.56,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0117,866,10,Kelleth Mund,Pella Marsh,clay_ceramic,39,46.33,1806.87,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0118,864,3,Kella Vorn,Vagabu Olt,wool_highland,2,42.58,85.16,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0119,867,10,Yasho Krent,Brenn Auster,wool_highland,34,32.55,1106.7,Northern-Densmok,completed,none,False,True,Quonxy,,0.4
+TRD-0120,871,9,Dessa Morin,Tessyn Mord,oil_lamp,40,39.99,1599.6,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0121,876,5,Sareth Moll,Trinne Goss,iron_ore,26,53.97,1403.22,Capital-Western,completed,none,False,False,,,0.1
+TRD-0122,874,2,Wick Hollat,Kellis Vorn,leather_tanned,40,30.72,1228.8,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0123,870,7,Vornis Keth,Archon Vells,glass_blown,28,70.16,1964.48,Western-Southern,completed,none,False,False,,,0.3
+TRD-0124,880,11,Wick Hollat,Linna Cors,copper_ingot,15,58.84,882.6,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0125,872,7,Josten Dray,Tessyn Mord,leather_tanned,17,46.25,786.25,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0126,875,2,Kellis Vorn,Pella Marsh,amber_resin,48,82.68,3968.64,Capital-Northern,completed,quantity,False,False,,,0.1
+TRD-0127,878,9,Kella Vorn,Yasho Krent,salt_crystal,43,28.24,1214.32,Capital-Mirado,defaulted,absconded,False,True,Brenn Auster,split_liability,0.1
+TRD-0128,879,5,Boffa Trent,Tessyn Mord,copper_ingot,7,65.41,457.87,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0129,863,5,Dessa Morin,Quonxy,wax_beeswax,40,77.34,3093.6,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0130,860,10,Tommen Brae,Trinne Goss,dye_indigo,45,82.86,3728.7,Capital-Western,completed,timing,False,False,,,0.1
+TRD-0131,865,3,Dessa Morin,Merik Pahl,stone_quarried,41,29.99,1229.59,Capital-Northern,defaulted,non_delivery,False,True,Tessyn Mord,insufficient_evidence,0.1
+TRD-0132,873,8,Yasho Krent,Serath Kyne,spice_blend,37,156.06,5774.22,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0133,864,3,Linna Cors,Vornis Keth,manuscript_vellum,29,99.92,2897.68,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0134,874,7,Vagabu Olt,Kelleth Mund,salt_crystal,44,31.37,1380.28,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0135,869,1,Quonxy,Rellen Voss,manuscript_vellum,14,105.81,1481.34,Capital-Western,completed,timing,False,False,,,0.1
+TRD-0136,863,1,Erris Pol,Linna Cors,wax_beeswax,15,52.9,793.5,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0137,871,2,Pemlik Tross,Wick Hollat,manuscript_vellum,5,96.9,484.5,Capital-Mirado,disputed,non_delivery,False,True,Kelleth Mund,split_liability,0.1
+TRD-0138,863,7,Brenn Auster,Boffa Trent,wool_highland,24,51.22,1229.28,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0139,867,7,Dessa Morin,Pemlik Tross,amber_resin,48,97.6,4684.8,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0140,865,2,Archon Vells,Trinne Goss,salt_crystal,50,30.12,1506.0,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0141,880,3,Quonxy,Tessyn Mord,timber_cedar,49,49.11,2406.39,Northern-Densmok,completed,quality,False,False,,,0.4
+TRD-0142,880,8,Sareth Moll,Brev Tannik,oil_lamp,37,52.63,1947.31,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0143,870,11,Yasho Krent,Mollen Vek,oil_lamp,41,44.44,1822.04,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0144,861,6,Archon Vells,Kellis Vorn,glass_blown,4,68.65,274.6,Western-Southern,completed,none,False,False,,,0.3
+TRD-0145,880,2,Vornis Keth,Hask Berrol,stone_quarried,48,36.12,1733.76,Western-Southern,disputed,non_delivery,False,True,Grigsu Haldo,buyer_liable,0.3
+TRD-0146,870,10,Erris Pol,Kella Vorn,timber_cedar,22,53.91,1186.02,Capital-Western,defaulted,non_delivery,True,True,Kellis Vorn,seller_liable,0.1
+TRD-0147,867,12,Sareth Moll,Erris Pol,wool_highland,27,38.69,1044.63,Densmok-Threshold,completed,quality,False,False,,,0.6
+TRD-0148,880,6,Kellis Vorn,Boffa Trent,salt_crystal,19,32.14,610.66,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0149,879,3,Yasho Krent,Kellis Vorn,timber_cedar,43,56.41,2425.63,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0150,862,5,Kella Vorn,Pemlik Tross,leather_tanned,48,69.94,3357.12,Capital-Densmok,defaulted,goods_destroyed,True,True,Kelleth Mund,inspector_bribed,0.1
+TRD-0151,871,1,Boffa Trent,Grigsu Haldo,wool_highland,13,44.82,582.66,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0152,862,5,Pella Marsh,Brev Tannik,salt_crystal,48,33.25,1596.0,Northern-Eastern,disputed,quality,False,True,Grigsu Haldo,buyer_liable,0.4
+TRD-0153,879,7,Mollen Vek,Kelleth Mund,wool_highland,11,44.34,487.74,Capital-Eastern,completed,quality,False,False,,,0.1
+TRD-0154,867,8,Vornis Keth,Grigsu Haldo,oil_lamp,31,54.08,1676.48,Western-Threshold,disputed,quantity,True,True,Grigsu Haldo,insufficient_evidence,0.3
+TRD-0155,874,5,Linna Cors,Pemlik Tross,wax_beeswax,9,98.58,887.22,Capital-Densmok,disputed,quality,False,True,Serath Kyne,inspector_bribed,0.1
+TRD-0156,863,12,Pella Marsh,Archon Vells,salt_crystal,29,19.89,576.81,Northern-Densmok,disputed,quantity,False,True,Torren Gael,buyer_liable,0.4
+TRD-0157,874,6,Tommen Brae,Brenn Auster,wax_beeswax,24,62.31,1495.44,Capital-Western,completed,none,False,False,,,0.1
+TRD-0158,871,4,Brenn Auster,Boffa Trent,salt_crystal,10,31.8,318.0,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0159,875,12,Sorel Dunn,Mollen Vek,grain_winter,6,20.92,125.52,Western-Southern,completed,none,False,False,,,0.3
+TRD-0160,864,9,Josten Dray,Vornis Keth,wax_beeswax,16,72.18,1154.88,Capital-Northern,completed,none,False,True,Kelleth Mund,,0.1
+TRD-0161,880,10,Sareth Moll,Kellis Vorn,salt_crystal,2,31.16,62.32,Western-Southern,completed,none,False,False,,,0.3
+TRD-0162,864,5,Rellen Voss,Brenn Auster,spice_blend,43,130.5,5611.5,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0163,862,9,Kella Vorn,Archon Vells,iron_ore,3,51.72,155.16,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0164,868,12,Brenn Auster,Pemlik Tross,amber_resin,7,77.85,544.95,Densmok-Threshold,completed,timing,False,False,,,0.6
+TRD-0165,871,9,Yasho Krent,Pella Marsh,wool_highland,45,39.43,1774.35,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0166,864,2,Merik Pahl,Brev Tannik,oil_lamp,3,41.28,123.84,Capital-Western,completed,quality,False,False,,,0.1
+TRD-0167,869,9,Pemlik Tross,Pella Marsh,grain_winter,19,15.44,293.36,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0168,880,6,Vagabu Olt,Tessyn Mord,spice_blend,48,127.14,6102.72,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0169,870,3,Erris Pol,Josten Dray,grain_winter,6,38.02,228.12,Densmok-Threshold,completed,quality,False,False,,,0.6
+TRD-0170,865,9,Grigsu Haldo,Boffa Trent,salt_crystal,19,27.94,530.86,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0171,873,3,Merik Pahl,Sareth Moll,spice_blend,23,89.86,2066.78,Western-Southern,completed,none,False,False,,,0.3
+TRD-0172,880,1,Kellis Vorn,Merik Pahl,stone_quarried,11,48.88,537.68,Densmok-Threshold,defaulted,non_delivery,False,True,Quonxy,seller_liable,0.6
+TRD-0173,864,2,Quonxy,Brev Tannik,spice_blend,39,121.35,4732.65,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0174,871,6,Sareth Moll,Brev Tannik,amber_resin,21,56.86,1194.06,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0175,863,1,Josten Dray,Serath Kyne,grain_winter,36,19.1,687.6,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0176,874,4,Vornis Keth,Grigsu Haldo,grain_winter,29,15.61,452.69,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0177,862,11,Pella Marsh,Yasho Krent,spice_blend,35,90.86,3180.1,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0178,865,12,Merik Pahl,Josten Dray,wool_highland,13,42.87,557.31,Densmok-Threshold,completed,quantity,False,False,,,0.6
+TRD-0179,860,6,Kella Vorn,Vornis Keth,spice_blend,36,123.36,4440.96,Western-Southern,completed,none,False,False,,,0.3
+TRD-0180,862,5,Pemlik Tross,Josten Dray,grain_winter,27,19.29,520.83,Northern-Eastern,completed,quality,False,False,,,0.4
+TRD-0181,870,11,Kellis Vorn,Erris Pol,oil_lamp,9,45.31,407.79,Eastern-Mirado,disputed,quantity,False,True,Kellis Vorn,insufficient_evidence,0.5
+TRD-0182,876,1,Sorel Dunn,Tessyn Mord,timber_cedar,46,42.5,1955.0,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0183,876,5,Pella Marsh,Kellis Vorn,dye_indigo,9,140.8,1267.2,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0184,862,9,Hask Berrol,Serath Kyne,timber_cedar,39,73.44,2864.16,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0185,861,1,Kellis Vorn,Torren Gael,dye_indigo,37,84.01,3108.37,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0186,875,11,Kella Vorn,Grigsu Haldo,glass_blown,44,62.86,2765.84,Western-Southern,completed,none,False,False,,,0.3
+TRD-0187,861,3,Sareth Moll,Rellen Voss,grain_winter,39,17.63,687.57,Western-Southern,completed,none,False,False,,,0.3
+TRD-0188,870,12,Pella Marsh,Boffa Trent,stone_quarried,7,46.07,322.49,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0189,868,8,Quonxy,Mollen Vek,salt_crystal,25,27.48,687.0,Capital-Western,disputed,non_delivery,True,True,Kellis Vorn,split_liability,0.1
+TRD-0190,878,12,Yasho Krent,Kelleth Mund,wool_highland,30,47.94,1438.2,Western-Southern,completed,none,False,False,,,0.3
+TRD-0191,860,2,Pemlik Tross,Kella Vorn,oil_lamp,4,34.84,139.36,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0192,880,11,Erris Pol,Grigsu Haldo,iron_ore,17,43.76,743.92,Capital-Northern,completed,price,False,False,,,0.1
+TRD-0193,872,1,Dessa Morin,Kella Vorn,copper_ingot,33,66.18,2183.94,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0194,879,11,Vornis Keth,Tessyn Mord,timber_cedar,22,52.67,1158.74,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0195,864,4,Vornis Keth,Archon Vells,stone_quarried,3,28.56,85.68,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0196,875,9,Sareth Moll,Mollen Vek,timber_cedar,26,96.76,2515.76,Densmok-Threshold,defaulted,goods_destroyed,False,True,Grigsu Haldo,split_liability,0.6
+TRD-0197,876,9,Kella Vorn,Erris Pol,glass_blown,24,78.84,1892.16,Western-Southern,completed,none,False,False,,,0.3
+TRD-0198,873,10,Grigsu Haldo,Sorel Dunn,iron_ore,50,64.72,3236.0,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0199,861,10,Erris Pol,Serath Kyne,stone_quarried,37,42.61,1576.57,Capital-Densmok,defaulted,non_delivery,True,True,Quonxy,split_liability,0.1
+TRD-0200,873,3,Rellen Voss,Josten Dray,copper_ingot,40,60.04,2401.6,Capital-Mirado,disputed,quality,False,True,Vagabu Olt,buyer_liable,0.1
+TRD-0201,877,6,Trinne Goss,Erris Pol,stone_quarried,35,66.63,2332.05,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0202,880,12,Vagabu Olt,Hask Berrol,grain_winter,20,35.3,706.0,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0203,869,5,Merik Pahl,Kelleth Mund,grain_winter,47,24.98,1174.06,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0204,877,7,Wick Hollat,Pemlik Tross,spice_blend,46,93.85,4317.1,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0205,880,5,Josten Dray,Erris Pol,copper_ingot,36,94.95,3418.2,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0206,879,12,Dessa Morin,Quonxy,clay_ceramic,34,26.7,907.8,Capital-Western,completed,none,False,False,,,0.1
+TRD-0207,863,7,Yasho Krent,Josten Dray,grain_winter,9,21.45,193.05,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0208,865,7,Hask Berrol,Tommen Brae,grain_winter,49,21.2,1038.8,Western-Southern,defaulted,absconded,True,True,Brenn Auster,seller_liable,0.3
+TRD-0209,880,10,Quonxy,Dessa Morin,manuscript_vellum,3,140.88,422.64,Capital-Densmok,defaulted,absconded,False,True,Kellis Vorn,split_liability,0.1
+TRD-0210,861,1,Grigsu Haldo,Vornis Keth,salt_crystal,35,33.25,1163.75,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0211,864,9,Sareth Moll,Vagabu Olt,copper_ingot,47,55.94,2629.18,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0212,865,1,Josten Dray,Yasho Krent,glass_blown,40,92.83,3713.2,Threshold-Southern,disputed,non_delivery,False,True,Vagabu Olt,split_liability,0.9
+TRD-0213,862,7,Trinne Goss,Tessyn Mord,wool_highland,1,50.82,50.82,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0214,868,6,Grigsu Haldo,Vornis Keth,iron_ore,4,59.28,237.12,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0215,865,7,Trinne Goss,Archon Vells,glass_blown,19,59.29,1126.51,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0216,864,8,Mollen Vek,Erris Pol,spice_blend,31,118.89,3685.59,Capital-Mirado,completed,quantity,False,False,,,0.1
+TRD-0217,879,2,Archon Vells,Sareth Moll,spice_blend,8,128.36,1026.88,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0218,876,4,Dessa Morin,Kella Vorn,timber_cedar,8,53.37,426.96,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0219,875,2,Wick Hollat,Archon Vells,oil_lamp,33,44.16,1457.28,Capital-Western,completed,none,False,False,,,0.1
+TRD-0220,877,8,Trinne Goss,Sorel Dunn,glass_blown,17,56.61,962.37,Capital-Eastern,completed,quantity,False,False,,,0.1
+TRD-0221,861,7,Boffa Trent,Josten Dray,amber_resin,5,101.8,509.0,Northern-Eastern,defaulted,absconded,True,True,Kelleth Mund,buyer_liable,0.4
+TRD-0222,864,11,Josten Dray,Hask Berrol,wax_beeswax,25,123.23,3080.75,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0223,877,3,Hask Berrol,Wick Hollat,spice_blend,35,95.85,3354.75,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0224,867,1,Linna Cors,Brenn Auster,glass_blown,35,74.86,2620.1,Western-Southern,completed,none,False,False,,,0.3
+TRD-0225,867,4,Sareth Moll,Boffa Trent,timber_cedar,49,53.82,2637.18,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0226,873,10,Linna Cors,Tommen Brae,iron_ore,3,30.6,91.8,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0227,861,4,Josten Dray,Torren Gael,stone_quarried,14,31.28,437.92,Western-Southern,completed,quality,False,False,,,0.3
+TRD-0228,869,4,Sorel Dunn,Josten Dray,leather_tanned,21,74.66,1567.86,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0229,876,4,Rellen Voss,Grigsu Haldo,dye_indigo,38,97.16,3692.08,Capital-Western,disputed,quantity,False,True,Kelleth Mund,inspector_bribed,0.1
+TRD-0230,875,1,Boffa Trent,Trinne Goss,stone_quarried,27,32.46,876.42,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0231,865,9,Erris Pol,Quonxy,clay_ceramic,30,29.72,891.6,Northern-Densmok,disputed,non_delivery,False,True,Vagabu Olt,inspector_bribed,0.4
+TRD-0232,864,7,Quonxy,Grigsu Haldo,copper_ingot,24,103.1,2474.4,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0233,866,1,Vagabu Olt,Rellen Voss,manuscript_vellum,49,105.03,5146.47,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0234,866,8,Kelleth Mund,Wick Hollat,leather_tanned,13,59.07,767.91,Northern-Densmok,defaulted,non_delivery,False,True,Quonxy,buyer_liable,0.4
+TRD-0235,879,12,Kelleth Mund,Rellen Voss,clay_ceramic,19,23.22,441.18,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0236,871,5,Vagabu Olt,Pemlik Tross,grain_winter,47,16.79,789.13,Western-Southern,completed,none,False,False,,,0.3
+TRD-0237,866,6,Yasho Krent,Sareth Moll,manuscript_vellum,2,236.33,472.66,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0238,878,12,Rellen Voss,Grigsu Haldo,timber_cedar,16,52.08,833.28,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0239,870,5,Linna Cors,Pella Marsh,grain_winter,32,21.13,676.16,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0240,871,3,Mollen Vek,Linna Cors,grain_winter,42,29.15,1224.3,Capital-Densmok,defaulted,goods_destroyed,True,True,Torren Gael,seller_liable,0.1
+TRD-0241,860,7,Mollen Vek,Pella Marsh,clay_ceramic,1,27.07,27.07,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0242,861,10,Hask Berrol,Merik Pahl,grain_winter,1,19.9,19.9,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0243,860,9,Josten Dray,Vagabu Olt,glass_blown,45,70.06,3152.7,Capital-Western,completed,none,False,False,,,0.1
+TRD-0244,865,2,Tommen Brae,Tessyn Mord,timber_cedar,23,43.79,1007.17,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0245,871,7,Sareth Moll,Vornis Keth,clay_ceramic,44,22.26,979.44,Capital-Eastern,completed,quality,False,False,,,0.1
+TRD-0246,880,1,Kellis Vorn,Rellen Voss,stone_quarried,4,35.74,142.96,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0247,862,8,Pella Marsh,Rellen Voss,leather_tanned,34,116.93,3975.62,Threshold-Southern,disputed,quantity,True,True,Grigsu Haldo,insufficient_evidence,0.9
+TRD-0248,868,1,Tommen Brae,Kellis Vorn,dye_indigo,3,97.41,292.23,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0249,860,4,Dessa Morin,Mollen Vek,stone_quarried,37,32.19,1191.03,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0250,872,11,Wick Hollat,Kella Vorn,leather_tanned,9,55.11,495.99,Capital-Mirado,completed,quality,False,False,,,0.1
+TRD-0251,871,1,Tessyn Mord,Sareth Moll,clay_ceramic,50,23.41,1170.5,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0252,870,1,Hask Berrol,Vagabu Olt,oil_lamp,36,40.11,1443.96,Western-Southern,defaulted,absconded,True,True,Grigsu Haldo,insufficient_evidence,0.3
+TRD-0253,862,10,Grigsu Haldo,Sorel Dunn,clay_ceramic,18,20.74,373.32,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0254,880,3,Josten Dray,Pemlik Tross,leather_tanned,20,26.46,529.2,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0255,863,3,Kellis Vorn,Kelleth Mund,wax_beeswax,33,66.48,2193.84,Western-Southern,completed,none,False,True,Serath Kyne,,0.3
+TRD-0256,877,2,Vornis Keth,Hask Berrol,leather_tanned,27,40.25,1086.75,Capital-Mirado,completed,none,False,True,Vagabu Olt,,0.1
+TRD-0257,867,10,Archon Vells,Serath Kyne,stone_quarried,32,26.13,836.16,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0258,868,7,Grigsu Haldo,Archon Vells,amber_resin,41,67.03,2748.23,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0259,874,2,Mollen Vek,Yasho Krent,iron_ore,40,41.98,1679.2,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0260,874,6,Rellen Voss,Pella Marsh,timber_cedar,13,62.02,806.26,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0261,872,6,Grigsu Haldo,Linna Cors,grain_winter,18,31.13,560.34,Threshold-Southern,completed,price,False,False,,,0.9
+TRD-0262,878,4,Dessa Morin,Kella Vorn,wool_highland,2,44.28,88.56,Eastern-Mirado,defaulted,absconded,False,True,Tessyn Mord,insufficient_evidence,0.5
+TRD-0263,869,12,Kellis Vorn,Pella Marsh,wax_beeswax,41,64.98,2664.18,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0264,864,12,Rellen Voss,Sorel Dunn,stone_quarried,39,34.29,1337.31,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0265,876,12,Rellen Voss,Dessa Morin,manuscript_vellum,39,209.57,8173.23,Densmok-Threshold,completed,none,False,True,Tessyn Mord,,0.6
+TRD-0266,871,3,Hask Berrol,Vornis Keth,manuscript_vellum,26,253.88,6600.88,Threshold-Southern,defaulted,absconded,False,True,Kelleth Mund,seller_liable,0.9
+TRD-0267,860,2,Vagabu Olt,Quonxy,clay_ceramic,30,23.74,712.2,Western-Southern,completed,quantity,False,False,,,0.3
+TRD-0268,860,8,Tessyn Mord,Yasho Krent,wax_beeswax,47,55.02,2585.94,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0269,874,4,Archon Vells,Erris Pol,spice_blend,47,92.3,4338.1,Western-Southern,completed,none,False,False,,,0.3
+TRD-0270,869,1,Brev Tannik,Merik Pahl,salt_crystal,42,34.19,1435.98,Capital-Western,completed,none,False,False,,,0.1
+TRD-0271,867,9,Serath Kyne,Dessa Morin,wool_highland,15,63.42,951.3,Densmok-Threshold,completed,quantity,False,False,,,0.6
+TRD-0272,873,7,Brenn Auster,Linna Cors,copper_ingot,25,62.21,1555.25,Western-Southern,completed,none,False,False,,,0.3
+TRD-0273,868,12,Brev Tannik,Sorel Dunn,amber_resin,12,63.73,764.76,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0274,863,5,Trinne Goss,Wick Hollat,grain_winter,21,23.73,498.33,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0275,878,2,Boffa Trent,Pemlik Tross,oil_lamp,20,36.52,730.4,Threshold-Southern,disputed,quality,False,True,Serath Kyne,seller_liable,0.9
+TRD-0276,867,5,Tessyn Mord,Kelleth Mund,spice_blend,25,94.22,2355.5,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0277,872,7,Serath Kyne,Archon Vells,wool_highland,19,34.67,658.73,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0278,874,10,Torren Gael,Wick Hollat,spice_blend,13,109.32,1421.16,Capital-Western,completed,price,False,False,,,0.1
+TRD-0279,875,7,Merik Pahl,Pella Marsh,oil_lamp,37,39.01,1443.37,Western-Southern,completed,none,False,False,,,0.3
+TRD-0280,869,1,Vagabu Olt,Quonxy,glass_blown,50,95.16,4758.0,Capital-Densmok,completed,quality,False,False,,,0.1
+TRD-0281,868,9,Sorel Dunn,Boffa Trent,manuscript_vellum,14,117.19,1640.66,Capital-Eastern,defaulted,non_delivery,False,True,Tessyn Mord,split_liability,0.1
+TRD-0282,861,8,Vagabu Olt,Pemlik Tross,amber_resin,8,97.42,779.36,Western-Southern,completed,quantity,False,False,,,0.3
+TRD-0283,878,12,Boffa Trent,Wick Hollat,wax_beeswax,14,86.37,1209.18,Capital-Densmok,completed,timing,False,False,,,0.1
+TRD-0284,879,9,Serath Kyne,Boffa Trent,glass_blown,33,95.74,3159.42,Northern-Densmok,defaulted,goods_destroyed,False,True,Kellis Vorn,insufficient_evidence,0.4
+TRD-0285,861,5,Pella Marsh,Hask Berrol,timber_cedar,16,63.05,1008.8,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0286,867,11,Pemlik Tross,Archon Vells,timber_cedar,25,83.75,2093.75,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0287,862,7,Archon Vells,Linna Cors,dye_indigo,24,111.58,2677.92,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0288,878,1,Pella Marsh,Linna Cors,amber_resin,41,101.05,4143.05,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0289,862,9,Pemlik Tross,Kelleth Mund,wax_beeswax,19,75.01,1425.19,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0290,878,8,Brev Tannik,Yasho Krent,manuscript_vellum,30,100.78,3023.4,Capital-Western,completed,none,False,False,,,0.1
+TRD-0291,865,8,Sareth Moll,Brenn Auster,wax_beeswax,42,150.8,6333.6,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0292,868,2,Hask Berrol,Boffa Trent,dye_indigo,42,90.13,3785.46,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0293,869,12,Merik Pahl,Brev Tannik,clay_ceramic,46,26.55,1221.3,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0294,862,3,Dessa Morin,Quonxy,oil_lamp,22,36.15,795.3,Capital-Western,completed,price,False,False,,,0.1
+TRD-0295,875,2,Quonxy,Rellen Voss,amber_resin,7,95.4,667.8,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0296,864,7,Linna Cors,Pella Marsh,timber_cedar,10,65.84,658.4,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0297,879,11,Serath Kyne,Erris Pol,spice_blend,48,97.37,4673.76,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0298,874,4,Kellis Vorn,Tommen Brae,salt_crystal,25,40.46,1011.5,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0299,864,4,Vagabu Olt,Trinne Goss,amber_resin,39,117.58,4585.62,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0300,860,11,Wick Hollat,Grigsu Haldo,copper_ingot,13,62.57,813.41,Northern-Eastern,completed,timing,False,False,,,0.4
+TRD-0301,867,8,Pemlik Tross,Tessyn Mord,clay_ceramic,5,26.38,131.9,Western-Southern,completed,none,False,False,,,0.3
+TRD-0302,871,6,Mollen Vek,Rellen Voss,wax_beeswax,31,74.54,2310.74,Densmok-Threshold,defaulted,non_delivery,True,True,Torren Gael,seller_liable,0.6
+TRD-0303,868,4,Torren Gael,Kellis Vorn,stone_quarried,46,32.01,1472.46,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0304,872,2,Hask Berrol,Kella Vorn,timber_cedar,14,35.08,491.12,Northern-Densmok,defaulted,non_delivery,True,True,Kelleth Mund,inspector_bribed,0.4
+TRD-0305,880,11,Trinne Goss,Hask Berrol,amber_resin,16,116.85,1869.6,Northern-Densmok,completed,none,False,True,Kelleth Mund,,0.4
+TRD-0306,863,8,Vornis Keth,Hask Berrol,manuscript_vellum,12,157.3,1887.6,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0307,860,3,Erris Pol,Boffa Trent,dye_indigo,18,104.23,1876.14,Capital-Densmok,completed,quality,False,False,,,0.1
+TRD-0308,860,6,Brev Tannik,Rellen Voss,dye_indigo,46,78.43,3607.78,Northern-Eastern,defaulted,goods_destroyed,True,True,Quonxy,inspector_bribed,0.4
+TRD-0309,871,1,Erris Pol,Wick Hollat,wool_highland,37,32.66,1208.42,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0310,876,1,Torren Gael,Wick Hollat,iron_ore,10,24.21,242.1,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0311,861,9,Brev Tannik,Merik Pahl,wax_beeswax,47,61.74,2901.78,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0312,878,6,Tessyn Mord,Kella Vorn,manuscript_vellum,3,106.09,318.27,Capital-Densmok,defaulted,non_delivery,False,True,Mollen Vek,split_liability,0.1
+TRD-0313,870,2,Kella Vorn,Sareth Moll,iron_ore,20,36.97,739.4,Densmok-Threshold,completed,quantity,False,False,,,0.6
+TRD-0314,878,8,Linna Cors,Brev Tannik,copper_ingot,49,69.61,3410.89,Capital-Eastern,completed,quantity,False,True,Kelleth Mund,,0.1
+TRD-0315,860,4,Kella Vorn,Boffa Trent,iron_ore,48,24.02,1152.96,Densmok-Threshold,completed,quality,False,False,,,0.6
+TRD-0316,867,7,Erris Pol,Torren Gael,timber_cedar,3,50.16,150.48,Capital-Eastern,disputed,non_delivery,False,True,Serath Kyne,insufficient_evidence,0.1
+TRD-0317,862,10,Tessyn Mord,Kella Vorn,timber_cedar,5,62.04,310.2,Eastern-Mirado,completed,none,False,True,Kellis Vorn,,0.5
+TRD-0318,867,5,Vagabu Olt,Wick Hollat,leather_tanned,48,54.01,2592.48,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0319,867,2,Kelleth Mund,Mollen Vek,salt_crystal,21,23.06,484.26,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0320,866,8,Grigsu Haldo,Erris Pol,dye_indigo,44,79.44,3495.36,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0321,879,1,Kelleth Mund,Pella Marsh,leather_tanned,23,34.76,799.48,Capital-Densmok,completed,none,False,True,Mollen Vek,,0.1
+TRD-0322,868,3,Brenn Auster,Rellen Voss,oil_lamp,16,49.47,791.52,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0323,864,2,Brenn Auster,Kellis Vorn,clay_ceramic,44,20.61,906.84,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0324,878,10,Vagabu Olt,Pella Marsh,amber_resin,13,101.9,1324.7,Capital-Western,disputed,non_delivery,False,True,Torren Gael,split_liability,0.1
+TRD-0325,863,1,Sareth Moll,Torren Gael,wool_highland,32,50.12,1603.84,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0326,865,6,Kelleth Mund,Serath Kyne,dye_indigo,40,86.29,3451.6,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0327,869,8,Rellen Voss,Tommen Brae,grain_winter,25,16.7,417.5,Capital-Western,completed,none,False,False,,,0.1
+TRD-0328,876,4,Hask Berrol,Sorel Dunn,iron_ore,23,50.07,1151.61,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0329,871,10,Archon Vells,Yasho Krent,stone_quarried,15,27.4,411.0,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0330,868,1,Brev Tannik,Erris Pol,spice_blend,7,261.63,1831.41,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0331,877,12,Torren Gael,Brev Tannik,clay_ceramic,23,49.51,1138.73,Threshold-Southern,defaulted,non_delivery,True,True,Grigsu Haldo,split_liability,0.9
+TRD-0332,871,10,Brenn Auster,Josten Dray,spice_blend,13,151.73,1972.49,Threshold-Southern,completed,price,False,False,,,0.9
+TRD-0333,865,8,Torren Gael,Tessyn Mord,manuscript_vellum,31,135.98,4215.38,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0334,866,3,Yasho Krent,Josten Dray,wool_highland,46,20.25,931.5,Densmok-Threshold,disputed,quality,False,True,Serath Kyne,seller_liable,0.6
+TRD-0335,871,12,Trinne Goss,Pemlik Tross,salt_crystal,11,24.42,268.62,Densmok-Threshold,completed,price,False,False,,,0.6
+TRD-0336,875,11,Yasho Krent,Serath Kyne,spice_blend,25,185.54,4638.5,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0337,864,3,Josten Dray,Brenn Auster,stone_quarried,40,19.99,799.6,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0338,875,3,Yasho Krent,Linna Cors,amber_resin,41,80.46,3298.86,Western-Threshold,disputed,quality,False,True,Serath Kyne,insufficient_evidence,0.3
+TRD-0339,860,5,Kelleth Mund,Vagabu Olt,amber_resin,1,63.43,63.43,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0340,873,3,Wick Hollat,Rellen Voss,grain_winter,25,18.81,470.25,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0341,878,11,Linna Cors,Trinne Goss,clay_ceramic,3,29.7,89.1,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0342,863,2,Yasho Krent,Serath Kyne,stone_quarried,6,45.84,275.04,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0343,875,12,Brenn Auster,Sareth Moll,wool_highland,7,63.32,443.24,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0344,873,12,Kella Vorn,Linna Cors,dye_indigo,16,86.7,1387.2,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0345,877,8,Mollen Vek,Torren Gael,spice_blend,19,106.81,2029.39,Capital-Western,completed,price,False,False,,,0.1
+TRD-0346,860,4,Serath Kyne,Trinne Goss,glass_blown,8,69.26,554.08,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0347,875,11,Vagabu Olt,Kellis Vorn,stone_quarried,12,33.23,398.76,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0348,874,5,Quonxy,Pella Marsh,dye_indigo,43,61.96,2664.28,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0349,877,7,Linna Cors,Dessa Morin,clay_ceramic,25,20.61,515.25,Northern-Eastern,completed,price,False,False,,,0.4
+TRD-0350,875,10,Wick Hollat,Quonxy,grain_winter,46,17.72,815.12,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0351,876,10,Trinne Goss,Vornis Keth,timber_cedar,29,64.88,1881.52,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0352,866,4,Mollen Vek,Torren Gael,wax_beeswax,28,77.7,2175.6,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0353,864,10,Vagabu Olt,Boffa Trent,amber_resin,26,81.2,2111.2,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0354,876,8,Tommen Brae,Pella Marsh,iron_ore,34,47.22,1605.48,Capital-Eastern,completed,quality,False,False,,,0.1
+TRD-0355,864,10,Dessa Morin,Vornis Keth,salt_crystal,7,30.75,215.25,Capital-Northern,completed,timing,False,False,,,0.1
+TRD-0356,868,7,Hask Berrol,Erris Pol,grain_winter,26,17.38,451.88,Capital-Western,completed,none,False,False,,,0.1
+TRD-0357,872,1,Pemlik Tross,Tommen Brae,leather_tanned,48,44.75,2148.0,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0358,871,1,Yasho Krent,Pella Marsh,glass_blown,45,64.48,2901.6,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0359,867,3,Grigsu Haldo,Linna Cors,oil_lamp,42,39.33,1651.86,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0360,873,12,Erris Pol,Brev Tannik,spice_blend,11,110.67,1217.37,Capital-Western,completed,none,False,False,,,0.1
+TRD-0361,872,3,Linna Cors,Wick Hollat,iron_ore,4,43.56,174.24,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0362,871,12,Kelleth Mund,Grigsu Haldo,spice_blend,41,110.23,4519.43,Western-Southern,disputed,quality,True,True,Quonxy,inspector_bribed,0.3
+TRD-0363,874,3,Pella Marsh,Erris Pol,spice_blend,48,94.92,4556.16,Densmok-Threshold,completed,quality,False,False,,,0.6
+TRD-0364,872,1,Serath Kyne,Wick Hollat,copper_ingot,18,94.54,1701.72,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0365,860,8,Tommen Brae,Mollen Vek,wool_highland,39,60.53,2360.67,Threshold-Southern,completed,timing,False,False,,,0.9
+TRD-0366,880,5,Rellen Voss,Tommen Brae,stone_quarried,20,36.91,738.2,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0367,872,10,Tessyn Mord,Brenn Auster,spice_blend,39,116.48,4542.72,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0368,875,2,Yasho Krent,Vagabu Olt,leather_tanned,42,49.28,2069.76,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0369,867,1,Brev Tannik,Wick Hollat,stone_quarried,9,32.47,292.23,Eastern-Mirado,completed,price,False,False,,,0.5
+TRD-0370,868,7,Pemlik Tross,Rellen Voss,manuscript_vellum,13,192.85,2507.05,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0371,877,11,Brev Tannik,Erris Pol,spice_blend,11,101.21,1113.31,Northern-Eastern,completed,quantity,False,False,,,0.4
+TRD-0372,875,3,Josten Dray,Vagabu Olt,wool_highland,42,46.39,1948.38,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0373,869,7,Brev Tannik,Tommen Brae,leather_tanned,8,40.87,326.96,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0374,878,10,Vornis Keth,Kellis Vorn,grain_winter,25,28.69,717.25,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0375,864,3,Kelleth Mund,Boffa Trent,wax_beeswax,10,142.82,1428.2,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0376,862,8,Yasho Krent,Trinne Goss,wool_highland,18,46.57,838.26,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0377,878,3,Erris Pol,Sorel Dunn,amber_resin,26,106.69,2773.94,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0378,860,1,Kella Vorn,Kelleth Mund,spice_blend,49,127.25,6235.25,Capital-Western,completed,quantity,False,True,Brenn Auster,,0.1
+TRD-0379,880,12,Quonxy,Vagabu Olt,spice_blend,38,84.23,3200.74,Northern-Densmok,completed,none,False,True,Brenn Auster,,0.4
+TRD-0380,869,5,Sareth Moll,Linna Cors,leather_tanned,9,57.76,519.84,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0381,871,4,Serath Kyne,Sorel Dunn,stone_quarried,47,31.2,1466.4,Capital-Western,defaulted,non_delivery,False,True,Grigsu Haldo,inspector_bribed,0.1
+TRD-0382,865,2,Boffa Trent,Josten Dray,manuscript_vellum,17,138.07,2347.19,Capital-Mirado,completed,quality,False,False,,,0.1
+TRD-0383,861,11,Tessyn Mord,Trinne Goss,iron_ore,27,48.42,1307.34,Capital-Western,completed,none,False,False,,,0.1
+TRD-0384,868,8,Merik Pahl,Mollen Vek,copper_ingot,1,64.46,64.46,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0385,876,5,Vornis Keth,Hask Berrol,timber_cedar,7,62.27,435.89,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0386,869,2,Brev Tannik,Tessyn Mord,grain_winter,34,31.41,1067.94,Western-Threshold,defaulted,absconded,False,True,Mollen Vek,buyer_liable,0.3
+TRD-0387,861,9,Erris Pol,Kelleth Mund,grain_winter,6,13.72,82.32,Densmok-Threshold,disputed,non_delivery,True,True,Torren Gael,inspector_bribed,0.6
+TRD-0388,862,12,Josten Dray,Tessyn Mord,dye_indigo,19,84.78,1610.82,Eastern-Mirado,completed,none,False,True,Kellis Vorn,,0.5
+TRD-0389,861,5,Boffa Trent,Sorel Dunn,leather_tanned,7,54.77,383.39,Capital-Mirado,disputed,quality,True,True,Kellis Vorn,buyer_liable,0.1
+TRD-0390,870,6,Wick Hollat,Sareth Moll,dye_indigo,22,79.53,1749.66,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0391,874,5,Sorel Dunn,Pemlik Tross,grain_winter,11,21.19,233.09,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0392,861,3,Tessyn Mord,Sareth Moll,grain_winter,25,26.48,662.0,Threshold-Southern,completed,quality,False,False,,,0.9
+TRD-0393,864,8,Tommen Brae,Erris Pol,salt_crystal,5,29.29,146.45,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0394,876,12,Dessa Morin,Linna Cors,clay_ceramic,34,28.73,976.82,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0395,863,7,Trinne Goss,Linna Cors,clay_ceramic,44,23.46,1032.24,Western-Southern,completed,none,False,False,,,0.3
+TRD-0396,877,10,Torren Gael,Brenn Auster,wool_highland,32,45.58,1458.56,Northern-Eastern,disputed,quality,False,True,Serath Kyne,buyer_liable,0.4
+TRD-0397,870,5,Torren Gael,Kella Vorn,clay_ceramic,26,26.43,687.18,Northern-Eastern,completed,quality,False,False,,,0.4
+TRD-0398,878,8,Kellis Vorn,Wick Hollat,grain_winter,32,18.53,592.96,Western-Southern,completed,quality,False,False,,,0.3
+TRD-0399,873,1,Kella Vorn,Dessa Morin,iron_ore,40,50.25,2010.0,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0400,877,4,Hask Berrol,Merik Pahl,oil_lamp,15,38.64,579.6,Densmok-Threshold,completed,timing,False,False,,,0.6
+TRD-0401,879,10,Erris Pol,Josten Dray,spice_blend,7,107.91,755.37,Capital-Eastern,completed,quantity,False,True,Serath Kyne,,0.1
+TRD-0402,880,5,Kella Vorn,Archon Vells,spice_blend,11,92.68,1019.48,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0403,873,2,Vagabu Olt,Hask Berrol,copper_ingot,14,46.62,652.68,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0404,870,2,Linna Cors,Rellen Voss,manuscript_vellum,38,136.2,5175.6,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0405,874,11,Dessa Morin,Archon Vells,timber_cedar,48,44.1,2116.8,Western-Southern,completed,none,False,False,,,0.3
+TRD-0406,878,8,Tommen Brae,Archon Vells,wool_highland,47,41.26,1939.22,Capital-Eastern,completed,quality,False,False,,,0.1
+TRD-0407,879,10,Wick Hollat,Yasho Krent,stone_quarried,45,41.71,1876.95,Capital-Mirado,completed,timing,False,False,,,0.1
+TRD-0408,870,5,Sareth Moll,Sorel Dunn,timber_cedar,48,61.19,2937.12,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0409,877,6,Merik Pahl,Linna Cors,copper_ingot,44,53.07,2335.08,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0410,880,3,Archon Vells,Dessa Morin,leather_tanned,23,42.31,973.13,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0411,873,11,Josten Dray,Tommen Brae,glass_blown,34,78.63,2673.42,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0412,861,11,Torren Gael,Quonxy,dye_indigo,10,151.61,1516.1,Capital-Densmok,completed,timing,False,False,,,0.1
+TRD-0413,877,1,Boffa Trent,Pella Marsh,oil_lamp,44,47.09,2071.96,Capital-Northern,completed,quantity,False,False,,,0.1
+TRD-0414,877,7,Quonxy,Kella Vorn,glass_blown,25,74.61,1865.25,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0415,870,9,Torren Gael,Brenn Auster,dye_indigo,29,151.2,4384.8,Western-Threshold,completed,timing,False,False,,,0.3
+TRD-0416,877,12,Vornis Keth,Kelleth Mund,copper_ingot,5,75.83,379.15,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0417,876,2,Pemlik Tross,Torren Gael,wax_beeswax,38,63.43,2410.34,Northern-Densmok,completed,quality,False,False,,,0.4
+TRD-0418,864,1,Mollen Vek,Boffa Trent,manuscript_vellum,43,125.55,5398.65,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0419,877,6,Kellis Vorn,Sorel Dunn,leather_tanned,12,44.4,532.8,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0420,865,7,Kella Vorn,Dessa Morin,stone_quarried,14,32.89,460.46,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0421,869,4,Linna Cors,Vornis Keth,grain_winter,42,22.59,948.78,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0422,874,4,Wick Hollat,Hask Berrol,clay_ceramic,21,26.83,563.43,Capital-Western,completed,none,False,False,,,0.1
+TRD-0423,863,7,Vagabu Olt,Dessa Morin,glass_blown,50,81.52,4076.0,Capital-Western,completed,none,False,False,,,0.1
+TRD-0424,874,8,Torren Gael,Yasho Krent,copper_ingot,11,89.92,989.12,Densmok-Threshold,defaulted,goods_destroyed,True,True,Torren Gael,buyer_liable,0.6
+TRD-0425,880,4,Pella Marsh,Trinne Goss,wax_beeswax,45,57.35,2580.75,Capital-Northern,disputed,non_delivery,False,True,Torren Gael,buyer_liable,0.1
+TRD-0426,860,8,Merik Pahl,Yasho Krent,manuscript_vellum,12,99.52,1194.24,Capital-Northern,completed,quality,False,False,,,0.1
+TRD-0427,867,5,Rellen Voss,Pemlik Tross,oil_lamp,21,43.28,908.88,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0428,877,1,Hask Berrol,Linna Cors,amber_resin,45,87.91,3955.95,Capital-Eastern,completed,timing,False,False,,,0.1
+TRD-0429,863,5,Brev Tannik,Trinne Goss,glass_blown,29,48.76,1414.04,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0430,860,8,Serath Kyne,Dessa Morin,clay_ceramic,35,36.29,1270.15,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0431,869,11,Wick Hollat,Brev Tannik,spice_blend,36,112.36,4044.96,Capital-Western,completed,none,False,True,Grigsu Haldo,,0.1
+TRD-0432,879,7,Kella Vorn,Dessa Morin,amber_resin,47,80.91,3802.77,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0433,880,9,Mollen Vek,Kelleth Mund,wool_highland,8,51.37,410.96,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0434,861,9,Sareth Moll,Trinne Goss,amber_resin,13,94.69,1230.97,Northern-Densmok,completed,price,False,False,,,0.4
+TRD-0435,871,3,Trinne Goss,Hask Berrol,clay_ceramic,5,22.85,114.25,Capital-Northern,disputed,substitution,False,True,Serath Kyne,inspector_bribed,0.1
+TRD-0436,869,12,Dessa Morin,Mollen Vek,spice_blend,21,184.92,3883.32,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0437,880,7,Vagabu Olt,Pella Marsh,spice_blend,31,127.59,3955.29,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0438,869,8,Kella Vorn,Tessyn Mord,wool_highland,18,41.71,750.78,Eastern-Mirado,disputed,quantity,False,True,Tessyn Mord,split_liability,0.5
+TRD-0439,880,2,Josten Dray,Kellis Vorn,iron_ore,38,47.37,1800.06,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0440,866,1,Kella Vorn,Vagabu Olt,grain_winter,24,22.2,532.8,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0441,878,12,Pella Marsh,Grigsu Haldo,timber_cedar,6,55.02,330.12,Western-Southern,completed,none,False,False,,,0.3
+TRD-0442,867,10,Trinne Goss,Serath Kyne,timber_cedar,37,47.5,1757.5,Western-Southern,defaulted,goods_destroyed,False,True,Kellis Vorn,insufficient_evidence,0.3
+TRD-0443,871,1,Quonxy,Brev Tannik,grain_winter,3,11.27,33.81,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0444,871,7,Erris Pol,Sareth Moll,manuscript_vellum,21,143.07,3004.47,Capital-Western,completed,none,False,False,,,0.1
+TRD-0445,880,5,Sorel Dunn,Josten Dray,dye_indigo,42,108.75,4567.5,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0446,862,9,Vagabu Olt,Rellen Voss,clay_ceramic,23,24.06,553.38,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0447,879,1,Archon Vells,Tommen Brae,timber_cedar,5,47.64,238.2,Western-Southern,completed,none,False,False,,,0.3
+TRD-0448,864,3,Serath Kyne,Pemlik Tross,salt_crystal,22,26.76,588.72,Eastern-Mirado,completed,price,False,False,,,0.5
+TRD-0449,875,4,Dessa Morin,Serath Kyne,wax_beeswax,9,58.34,525.06,Capital-Western,completed,none,False,False,,,0.1
+TRD-0450,880,9,Torren Gael,Tommen Brae,timber_cedar,12,47.66,571.92,Capital-Western,completed,none,False,False,,,0.1
+TRD-0451,878,11,Brenn Auster,Tommen Brae,glass_blown,39,62.06,2420.34,Capital-Northern,defaulted,absconded,True,True,Kelleth Mund,inspector_bribed,0.1
+TRD-0452,864,10,Sorel Dunn,Linna Cors,wool_highland,47,53.97,2536.59,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0453,879,10,Kellis Vorn,Vagabu Olt,stone_quarried,2,29.85,59.7,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0454,876,11,Rellen Voss,Pella Marsh,timber_cedar,40,35.1,1404.0,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0455,877,9,Linna Cors,Tessyn Mord,amber_resin,39,90.42,3526.38,Western-Southern,completed,none,False,True,Kelleth Mund,,0.3
+TRD-0456,876,7,Boffa Trent,Wick Hollat,manuscript_vellum,15,121.43,1821.45,Capital-Eastern,defaulted,absconded,False,True,Kelleth Mund,split_liability,0.1
+TRD-0457,878,12,Tommen Brae,Linna Cors,salt_crystal,31,25.61,793.91,Capital-Mirado,completed,quality,False,False,,,0.1
+TRD-0458,877,7,Vagabu Olt,Kelleth Mund,iron_ore,1,49.39,49.39,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0459,860,7,Hask Berrol,Kelleth Mund,leather_tanned,10,47.25,472.5,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0460,868,9,Rellen Voss,Vornis Keth,spice_blend,49,107.73,5278.77,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0461,877,8,Serath Kyne,Pemlik Tross,grain_winter,50,30.74,1537.0,Northern-Densmok,completed,quantity,False,False,,,0.4
+TRD-0462,863,12,Quonxy,Erris Pol,wool_highland,26,35.43,921.18,Capital-Northern,completed,quality,False,False,,,0.1
+TRD-0463,880,1,Brev Tannik,Kellis Vorn,timber_cedar,28,64.37,1802.36,Western-Southern,completed,none,False,False,,,0.3
+TRD-0464,871,2,Vornis Keth,Torren Gael,stone_quarried,34,36.6,1244.4,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0465,861,3,Hask Berrol,Erris Pol,oil_lamp,43,39.63,1704.09,Capital-Western,defaulted,goods_destroyed,True,True,Brenn Auster,inspector_bribed,0.1
+TRD-0466,876,9,Merik Pahl,Quonxy,wool_highland,16,32.58,521.28,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0467,862,5,Linna Cors,Pemlik Tross,spice_blend,38,105.39,4004.82,Eastern-Mirado,completed,none,False,True,Torren Gael,,0.5
+TRD-0468,862,9,Grigsu Haldo,Linna Cors,spice_blend,39,194.82,7597.98,Densmok-Threshold,defaulted,absconded,False,True,Grigsu Haldo,seller_liable,0.6
+TRD-0469,868,3,Rellen Voss,Kella Vorn,salt_crystal,19,24.87,472.53,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0470,876,5,Wick Hollat,Kella Vorn,dye_indigo,25,92.83,2320.75,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0471,870,8,Trinne Goss,Sareth Moll,iron_ore,5,38.09,190.45,Western-Southern,completed,none,False,False,,,0.3
+TRD-0472,867,11,Merik Pahl,Quonxy,leather_tanned,34,59.11,2009.74,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0473,868,4,Grigsu Haldo,Kellis Vorn,stone_quarried,22,38.48,846.56,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0474,875,6,Boffa Trent,Kelleth Mund,dye_indigo,13,148.62,1932.06,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0475,867,5,Kelleth Mund,Vagabu Olt,copper_ingot,50,99.21,4960.5,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0476,875,10,Brenn Auster,Brev Tannik,manuscript_vellum,21,113.82,2390.22,Western-Southern,completed,none,False,False,,,0.3
+TRD-0477,878,5,Erris Pol,Serath Kyne,dye_indigo,37,84.44,3124.28,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0478,873,8,Kella Vorn,Torren Gael,spice_blend,50,125.86,6293.0,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0479,876,8,Yasho Krent,Josten Dray,iron_ore,25,48.13,1203.25,Capital-Western,completed,none,False,False,,,0.1
+TRD-0480,879,5,Serath Kyne,Dessa Morin,dye_indigo,22,101.64,2236.08,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0481,866,7,Merik Pahl,Brev Tannik,spice_blend,12,178.69,2144.28,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0482,867,2,Josten Dray,Vagabu Olt,clay_ceramic,25,24.32,608.0,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0483,864,8,Brev Tannik,Brenn Auster,wool_highland,41,39.99,1639.59,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0484,875,5,Vagabu Olt,Dessa Morin,manuscript_vellum,11,100.75,1108.25,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0485,875,11,Tessyn Mord,Erris Pol,leather_tanned,17,50.63,860.71,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0486,871,11,Vornis Keth,Kelleth Mund,wool_highland,32,42.09,1346.88,Northern-Densmok,completed,price,False,False,,,0.4
+TRD-0487,872,10,Grigsu Haldo,Erris Pol,timber_cedar,27,78.12,2109.24,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0488,862,2,Serath Kyne,Boffa Trent,clay_ceramic,18,22.35,402.3,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0489,874,6,Josten Dray,Dessa Morin,oil_lamp,2,39.01,78.02,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0490,868,12,Merik Pahl,Linna Cors,amber_resin,5,53.65,268.25,Western-Threshold,defaulted,absconded,True,True,Brenn Auster,insufficient_evidence,0.3
+TRD-0491,876,2,Tessyn Mord,Grigsu Haldo,timber_cedar,25,58.41,1460.25,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0492,869,8,Hask Berrol,Mollen Vek,timber_cedar,2,62.45,124.9,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0493,870,8,Sareth Moll,Wick Hollat,dye_indigo,45,92.9,4180.5,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0494,874,11,Josten Dray,Hask Berrol,wax_beeswax,35,68.63,2402.05,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0495,877,4,Brev Tannik,Kellis Vorn,oil_lamp,20,40.38,807.6,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0496,864,6,Grigsu Haldo,Archon Vells,iron_ore,49,52.6,2577.4,Capital-Eastern,completed,none,False,True,Kelleth Mund,,0.1
+TRD-0497,869,10,Quonxy,Sorel Dunn,iron_ore,27,42.73,1153.71,Northern-Eastern,disputed,non_delivery,True,True,Kellis Vorn,insufficient_evidence,0.4
+TRD-0498,872,4,Vagabu Olt,Kellis Vorn,wax_beeswax,49,58.23,2853.27,Eastern-Mirado,completed,timing,False,False,,,0.5
+TRD-0499,877,5,Rellen Voss,Kelleth Mund,amber_resin,30,58.07,1742.1,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0500,879,8,Kelleth Mund,Boffa Trent,iron_ore,12,33.75,405.0,Capital-Densmok,defaulted,absconded,True,True,Quonxy,seller_liable,0.1
+TRD-0501,867,2,Mollen Vek,Brenn Auster,grain_winter,32,18.73,599.36,Western-Threshold,defaulted,absconded,False,True,Brenn Auster,split_liability,0.3
+TRD-0502,862,3,Torren Gael,Grigsu Haldo,stone_quarried,12,35.6,427.2,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0503,872,1,Tessyn Mord,Brev Tannik,clay_ceramic,29,27.71,803.59,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0504,866,8,Josten Dray,Brev Tannik,salt_crystal,14,31.99,447.86,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0505,869,6,Serath Kyne,Trinne Goss,manuscript_vellum,34,141.0,4794.0,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0506,869,4,Boffa Trent,Tommen Brae,manuscript_vellum,8,106.45,851.6,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0507,860,3,Brev Tannik,Vagabu Olt,salt_crystal,1,33.47,33.47,Capital-Mirado,defaulted,goods_destroyed,False,True,Quonxy,inspector_bribed,0.1
+TRD-0508,864,6,Linna Cors,Kellis Vorn,clay_ceramic,22,29.54,649.88,Capital-Densmok,defaulted,goods_destroyed,True,True,Serath Kyne,buyer_liable,0.1
+TRD-0509,877,2,Mollen Vek,Archon Vells,clay_ceramic,49,55.0,2695.0,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0510,866,1,Merik Pahl,Pemlik Tross,spice_blend,3,93.93,281.79,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0511,869,9,Merik Pahl,Erris Pol,copper_ingot,47,43.94,2065.18,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0512,879,9,Serath Kyne,Kellis Vorn,timber_cedar,17,50.5,858.5,Western-Southern,completed,none,False,False,,,0.3
+TRD-0513,880,9,Pemlik Tross,Linna Cors,wool_highland,24,41.92,1006.08,Capital-Western,completed,quantity,False,False,,,0.1
+TRD-0514,862,11,Kella Vorn,Pella Marsh,stone_quarried,36,44.97,1618.92,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0515,873,11,Yasho Krent,Tessyn Mord,salt_crystal,3,31.91,95.73,Northern-Eastern,completed,quantity,False,False,,,0.4
+TRD-0516,861,4,Tessyn Mord,Archon Vells,copper_ingot,42,48.76,2047.92,Capital-Northern,completed,price,False,False,,,0.1
+TRD-0517,878,5,Torren Gael,Pemlik Tross,clay_ceramic,14,31.74,444.36,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0518,862,8,Brev Tannik,Hask Berrol,manuscript_vellum,27,188.57,5091.39,Densmok-Threshold,completed,quality,False,False,,,0.6
+TRD-0519,868,9,Torren Gael,Linna Cors,amber_resin,34,57.44,1952.96,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0520,877,7,Kelleth Mund,Quonxy,clay_ceramic,48,31.33,1503.84,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0521,880,10,Boffa Trent,Merik Pahl,oil_lamp,7,47.97,335.79,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0522,872,9,Yasho Krent,Merik Pahl,wool_highland,29,47.97,1391.13,Northern-Eastern,defaulted,absconded,True,True,Serath Kyne,split_liability,0.4
+TRD-0523,873,11,Rellen Voss,Pella Marsh,leather_tanned,25,43.84,1096.0,Threshold-Southern,completed,timing,False,False,,,0.9
+TRD-0524,874,8,Pemlik Tross,Brenn Auster,manuscript_vellum,20,142.19,2843.8,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0525,866,6,Brenn Auster,Brev Tannik,dye_indigo,37,95.43,3530.91,Northern-Eastern,disputed,quantity,True,True,Quonxy,split_liability,0.4
+TRD-0526,864,3,Vagabu Olt,Pemlik Tross,clay_ceramic,37,20.34,752.58,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0527,862,12,Yasho Krent,Sorel Dunn,grain_winter,45,25.29,1138.05,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0528,879,11,Grigsu Haldo,Torren Gael,stone_quarried,50,38.92,1946.0,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0529,873,7,Tommen Brae,Pella Marsh,salt_crystal,1,55.45,55.45,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0530,861,5,Archon Vells,Torren Gael,leather_tanned,21,51.3,1077.3,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0531,861,11,Josten Dray,Pemlik Tross,oil_lamp,28,51.27,1435.56,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0532,864,6,Kellis Vorn,Archon Vells,manuscript_vellum,6,115.16,690.96,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0533,864,3,Erris Pol,Dessa Morin,copper_ingot,37,57.49,2127.13,Western-Southern,completed,none,False,False,,,0.3
+TRD-0534,876,4,Quonxy,Kellis Vorn,dye_indigo,37,88.29,3266.73,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0535,873,6,Boffa Trent,Kelleth Mund,leather_tanned,20,56.31,1126.2,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0536,874,10,Mollen Vek,Erris Pol,manuscript_vellum,49,91.1,4463.9,Western-Threshold,completed,quality,False,False,,,0.3
+TRD-0537,861,4,Vornis Keth,Mollen Vek,glass_blown,8,65.61,524.88,Capital-Western,completed,none,False,False,,,0.1
+TRD-0538,870,4,Josten Dray,Kella Vorn,copper_ingot,36,87.11,3135.96,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0539,864,12,Merik Pahl,Trinne Goss,iron_ore,43,46.49,1999.07,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0540,861,5,Kelleth Mund,Sorel Dunn,dye_indigo,1,93.67,93.67,Capital-Western,completed,none,False,False,,,0.1
+TRD-0541,871,2,Brenn Auster,Yasho Krent,stone_quarried,46,69.17,3181.82,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0542,879,9,Kellis Vorn,Kelleth Mund,copper_ingot,36,71.2,2563.2,Northern-Eastern,disputed,quality,True,True,Vagabu Olt,split_liability,0.4
+TRD-0543,870,8,Pemlik Tross,Linna Cors,wool_highland,23,37.55,863.65,Capital-Western,completed,none,False,False,,,0.1
+TRD-0544,876,5,Brev Tannik,Torren Gael,dye_indigo,2,109.84,219.68,Capital-Mirado,defaulted,absconded,True,True,Serath Kyne,insufficient_evidence,0.1
+TRD-0545,864,2,Josten Dray,Pemlik Tross,clay_ceramic,10,22.4,224.0,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0546,879,6,Sareth Moll,Dessa Morin,timber_cedar,44,83.97,3694.68,Western-Threshold,completed,quantity,False,False,,,0.3
+TRD-0547,876,3,Rellen Voss,Brev Tannik,timber_cedar,11,64.53,709.83,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0548,863,3,Yasho Krent,Pella Marsh,timber_cedar,21,44.65,937.65,Capital-Eastern,disputed,non_delivery,False,True,Mollen Vek,insufficient_evidence,0.1
+TRD-0549,880,12,Vagabu Olt,Mollen Vek,copper_ingot,2,51.16,102.32,Capital-Northern,completed,timing,False,False,,,0.1
+TRD-0550,879,4,Vornis Keth,Quonxy,clay_ceramic,6,20.26,121.56,Eastern-Mirado,completed,none,False,False,,,0.5
+TRD-0551,876,10,Erris Pol,Josten Dray,spice_blend,9,151.47,1363.23,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0552,873,1,Tommen Brae,Vagabu Olt,wax_beeswax,49,125.36,6142.64,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0553,874,10,Erris Pol,Josten Dray,leather_tanned,28,57.75,1617.0,Western-Southern,completed,none,False,True,Kelleth Mund,,0.3
+TRD-0554,870,7,Vornis Keth,Linna Cors,manuscript_vellum,30,101.25,3037.5,Northern-Eastern,completed,quality,False,False,,,0.4
+TRD-0555,867,9,Kella Vorn,Pemlik Tross,manuscript_vellum,49,114.6,5615.4,Northern-Eastern,completed,none,False,True,Mollen Vek,,0.4
+TRD-0556,874,7,Wick Hollat,Grigsu Haldo,glass_blown,19,60.66,1152.54,Western-Southern,completed,none,False,True,Vagabu Olt,,0.3
+TRD-0557,864,8,Sorel Dunn,Hask Berrol,oil_lamp,8,49.01,392.08,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0558,877,3,Pemlik Tross,Sareth Moll,leather_tanned,30,40.5,1215.0,Western-Southern,completed,none,False,False,,,0.3
+TRD-0559,866,8,Kellis Vorn,Grigsu Haldo,leather_tanned,46,52.97,2436.62,Capital-Eastern,completed,quality,False,True,Quonxy,,0.1
+TRD-0560,880,6,Kellis Vorn,Kella Vorn,stone_quarried,33,39.07,1289.31,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0561,877,7,Torren Gael,Brev Tannik,wool_highland,10,57.37,573.7,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0562,861,7,Grigsu Haldo,Yasho Krent,oil_lamp,9,45.78,412.02,Northern-Densmok,defaulted,non_delivery,False,True,Mollen Vek,seller_liable,0.4
+TRD-0563,874,8,Pella Marsh,Erris Pol,iron_ore,38,73.48,2792.24,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0564,874,2,Vornis Keth,Hask Berrol,iron_ore,41,74.76,3065.16,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0565,861,3,Mollen Vek,Torren Gael,spice_blend,3,94.4,283.2,Capital-Western,completed,none,False,False,,,0.1
+TRD-0566,869,6,Tommen Brae,Kellis Vorn,manuscript_vellum,12,116.01,1392.12,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0567,879,10,Brev Tannik,Kella Vorn,wool_highland,24,43.99,1055.76,Western-Southern,defaulted,non_delivery,False,True,Serath Kyne,split_liability,0.3
+TRD-0568,872,2,Linna Cors,Rellen Voss,amber_resin,18,77.68,1398.24,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0569,866,12,Kelleth Mund,Hask Berrol,manuscript_vellum,41,123.43,5060.63,Capital-Northern,completed,none,False,True,Grigsu Haldo,,0.1
+TRD-0570,869,7,Vornis Keth,Wick Hollat,leather_tanned,23,67.11,1543.53,Northern-Densmok,disputed,non_delivery,False,True,Quonxy,insufficient_evidence,0.4
+TRD-0571,865,10,Quonxy,Josten Dray,glass_blown,41,28.47,1167.27,Western-Threshold,completed,quantity,False,False,,,0.3
+TRD-0572,873,7,Torren Gael,Boffa Trent,spice_blend,14,123.47,1728.58,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0573,869,5,Brev Tannik,Kellis Vorn,glass_blown,1,71.93,71.93,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0574,872,12,Dessa Morin,Hask Berrol,iron_ore,44,43.62,1919.28,Capital-Densmok,completed,none,False,False,,,0.1
+TRD-0575,861,11,Mollen Vek,Archon Vells,timber_cedar,35,54.13,1894.55,Eastern-Mirado,disputed,non_delivery,False,True,Kelleth Mund,seller_liable,0.5
+TRD-0576,876,5,Dessa Morin,Linna Cors,leather_tanned,14,50.72,710.08,Northern-Eastern,completed,none,False,False,,,0.4
+TRD-0577,871,2,Mollen Vek,Grigsu Haldo,iron_ore,11,93.39,1027.29,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0578,879,2,Pella Marsh,Brev Tannik,glass_blown,46,80.02,3680.92,Capital-Eastern,completed,none,False,False,,,0.1
+TRD-0579,875,4,Boffa Trent,Erris Pol,glass_blown,24,78.42,1882.08,Western-Threshold,completed,quantity,False,False,,,0.3
+TRD-0580,874,9,Brenn Auster,Sorel Dunn,grain_winter,22,17.23,379.06,Northern-Eastern,disputed,substitution,False,True,Kellis Vorn,seller_liable,0.4
+TRD-0581,876,11,Mollen Vek,Quonxy,manuscript_vellum,34,114.6,3896.4,Western-Southern,completed,none,False,False,,,0.3
+TRD-0582,861,11,Pella Marsh,Vornis Keth,amber_resin,34,83.5,2839.0,Densmok-Threshold,completed,timing,False,True,Mollen Vek,,0.6
+TRD-0583,880,4,Yasho Krent,Kelleth Mund,copper_ingot,29,51.28,1487.12,Northern-Densmok,completed,none,False,False,,,0.4
+TRD-0584,865,5,Tessyn Mord,Brenn Auster,salt_crystal,18,40.19,723.42,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0585,869,10,Quonxy,Serath Kyne,amber_resin,29,94.67,2745.43,Northern-Densmok,completed,none,False,True,Brenn Auster,,0.4
+TRD-0586,863,7,Torren Gael,Tessyn Mord,wax_beeswax,39,56.65,2209.35,Capital-Mirado,disputed,non_delivery,False,True,Mollen Vek,split_liability,0.1
+TRD-0587,866,12,Linna Cors,Trinne Goss,amber_resin,6,87.3,523.8,Western-Southern,completed,price,False,True,Mollen Vek,,0.3
+TRD-0588,880,12,Linna Cors,Sareth Moll,grain_winter,40,32.95,1318.0,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0589,865,12,Tommen Brae,Trinne Goss,leather_tanned,31,47.91,1485.21,Densmok-Threshold,completed,none,False,False,,,0.6
+TRD-0590,865,5,Linna Cors,Boffa Trent,timber_cedar,46,46.26,2127.96,Northern-Eastern,completed,timing,False,False,,,0.4
+TRD-0591,862,5,Kella Vorn,Sareth Moll,stone_quarried,36,41.1,1479.6,Threshold-Southern,completed,none,False,False,,,0.9
+TRD-0592,862,6,Kelleth Mund,Pella Marsh,wax_beeswax,22,66.75,1468.5,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0593,862,12,Tommen Brae,Merik Pahl,grain_winter,30,20.74,622.2,Capital-Northern,completed,none,False,True,Quonxy,,0.1
+TRD-0594,865,5,Pemlik Tross,Kellis Vorn,salt_crystal,50,33.77,1688.5,Eastern-Mirado,completed,timing,False,False,,,0.5
+TRD-0595,861,2,Kelleth Mund,Pella Marsh,timber_cedar,1,107.57,107.57,Threshold-Southern,completed,quantity,False,False,,,0.9
+TRD-0596,869,7,Vornis Keth,Dessa Morin,oil_lamp,20,41.87,837.4,Western-Threshold,completed,none,False,False,,,0.3
+TRD-0597,869,7,Merik Pahl,Boffa Trent,amber_resin,26,52.01,1352.26,Threshold-Southern,completed,timing,False,True,Vagabu Olt,,0.9
+TRD-0598,861,1,Merik Pahl,Kella Vorn,spice_blend,2,125.89,251.78,Capital-Northern,completed,none,False,False,,,0.1
+TRD-0599,872,11,Yasho Krent,Josten Dray,stone_quarried,35,33.34,1166.9,Capital-Mirado,completed,none,False,False,,,0.1
+TRD-0600,864,4,Kella Vorn,Pemlik Tross,spice_blend,43,94.79,4075.97,Capital-Mirado,completed,none,False,True,Brenn Auster,,0.1

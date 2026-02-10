@@ -1,0 +1,301 @@
+match_id,round,player_a,player_b,strategy_a,strategy_b,action_a,action_b,payoff_a,payoff_b,cumulative_payoff_a,cumulative_payoff_b,dens_interference,cooperation_rate
+MATCH-001,1,Mollen Vek,Linna Cors,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,5,0,False,0.0
+MATCH-001,2,Mollen Vek,Linna Cors,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,5,5,False,0.5
+MATCH-001,3,Mollen Vek,Linna Cors,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,10,5,False,0.33
+MATCH-001,4,Mollen Vek,Linna Cors,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,10,10,False,0.5
+MATCH-001,5,Mollen Vek,Linna Cors,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,15,10,False,0.4
+MATCH-001,6,Mollen Vek,Linna Cors,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,15,15,False,0.5
+MATCH-001,7,Mollen Vek,Linna Cors,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,20,15,False,0.43
+MATCH-001,8,Mollen Vek,Linna Cors,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,20,20,False,0.5
+MATCH-001,9,Mollen Vek,Linna Cors,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,25,20,False,0.44
+MATCH-001,10,Mollen Vek,Linna Cors,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,25,25,False,0.5
+MATCH-002,1,Rellen Voss,Dessa Morin,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,5,0,False,0.0
+MATCH-002,2,Rellen Voss,Dessa Morin,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,5,5,False,0.5
+MATCH-002,3,Rellen Voss,Dessa Morin,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,10,5,False,0.33
+MATCH-002,4,Rellen Voss,Dessa Morin,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,10,10,False,0.5
+MATCH-002,5,Rellen Voss,Dessa Morin,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,15,10,False,0.4
+MATCH-002,6,Rellen Voss,Dessa Morin,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,15,15,False,0.5
+MATCH-002,7,Rellen Voss,Dessa Morin,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,20,15,False,0.43
+MATCH-002,8,Rellen Voss,Dessa Morin,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,20,20,False,0.5
+MATCH-002,9,Rellen Voss,Dessa Morin,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,25,20,False,0.44
+MATCH-002,10,Rellen Voss,Dessa Morin,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,25,25,False,0.5
+MATCH-003,1,Torren Gael,Vornis Keth,suspicious_tit_for_tat,grim_trigger,defect,cooperate,5,0,5,0,False,0.0
+MATCH-003,2,Torren Gael,Vornis Keth,suspicious_tit_for_tat,grim_trigger,cooperate,defect,0,5,5,5,False,0.5
+MATCH-003,3,Torren Gael,Vornis Keth,suspicious_tit_for_tat,grim_trigger,defect,defect,1,1,6,6,False,0.33
+MATCH-003,4,Torren Gael,Vornis Keth,suspicious_tit_for_tat,grim_trigger,defect,defect,1,1,7,7,False,0.25
+MATCH-003,5,Torren Gael,Vornis Keth,suspicious_tit_for_tat,grim_trigger,defect,defect,1,1,8,8,False,0.2
+MATCH-003,6,Torren Gael,Vornis Keth,suspicious_tit_for_tat,grim_trigger,defect,defect,1,1,9,9,False,0.17
+MATCH-003,7,Torren Gael,Vornis Keth,suspicious_tit_for_tat,grim_trigger,defect,defect,1,1,10,10,False,0.14
+MATCH-003,8,Torren Gael,Vornis Keth,suspicious_tit_for_tat,grim_trigger,defect,defect,1,1,11,11,False,0.12
+MATCH-003,9,Torren Gael,Vornis Keth,suspicious_tit_for_tat,grim_trigger,defect,defect,1,1,12,12,False,0.11
+MATCH-003,10,Torren Gael,Vornis Keth,suspicious_tit_for_tat,grim_trigger,defect,defect,1,1,13,13,False,0.1
+MATCH-004,1,Wick Hollat,Vornis Keth,always_defect,generous_tit_for_tat,defect,cooperate,5,0,5,0,False,0.0
+MATCH-004,2,Wick Hollat,Vornis Keth,always_defect,generous_tit_for_tat,defect,defect,1,1,6,1,False,0.0
+MATCH-004,3,Wick Hollat,Vornis Keth,always_defect,generous_tit_for_tat,defect,cooperate,5,0,11,1,False,0.0
+MATCH-004,4,Wick Hollat,Vornis Keth,always_defect,generous_tit_for_tat,defect,defect,1,1,12,2,False,0.0
+MATCH-004,5,Wick Hollat,Vornis Keth,always_defect,generous_tit_for_tat,defect,cooperate,5,0,17,2,False,0.0
+MATCH-004,6,Wick Hollat,Vornis Keth,always_defect,generous_tit_for_tat,defect,defect,1,1,18,3,False,0.0
+MATCH-004,7,Wick Hollat,Vornis Keth,always_defect,generous_tit_for_tat,defect,defect,1,1,19,4,False,0.0
+MATCH-004,8,Wick Hollat,Vornis Keth,always_defect,generous_tit_for_tat,defect,defect,1,1,20,5,False,0.0
+MATCH-004,9,Wick Hollat,Vornis Keth,always_defect,generous_tit_for_tat,defect,defect,1,1,21,6,False,0.0
+MATCH-004,10,Wick Hollat,Vornis Keth,always_defect,generous_tit_for_tat,defect,defect,1,1,22,7,True,0.0
+MATCH-005,1,Tommen Brae,Vornis Keth,random,random,cooperate,defect,0,5,0,5,False,1.0
+MATCH-005,2,Tommen Brae,Vornis Keth,random,random,cooperate,defect,0,5,0,10,False,1.0
+MATCH-005,3,Tommen Brae,Vornis Keth,random,random,cooperate,defect,0,5,0,15,False,1.0
+MATCH-005,4,Tommen Brae,Vornis Keth,random,random,cooperate,cooperate,3,3,3,18,False,1.0
+MATCH-005,5,Tommen Brae,Vornis Keth,random,random,defect,defect,1,1,4,19,False,0.8
+MATCH-005,6,Tommen Brae,Vornis Keth,random,random,defect,defect,1,1,5,20,False,0.67
+MATCH-005,7,Tommen Brae,Vornis Keth,random,random,cooperate,cooperate,3,3,8,23,False,0.71
+MATCH-005,8,Tommen Brae,Vornis Keth,random,random,cooperate,defect,0,5,8,28,False,0.75
+MATCH-005,9,Tommen Brae,Vornis Keth,random,random,cooperate,defect,0,5,8,33,False,0.78
+MATCH-005,10,Tommen Brae,Vornis Keth,random,random,cooperate,defect,0,5,8,38,False,0.8
+MATCH-006,1,Archon Vells,Wick Hollat,always_cooperate,grim_trigger,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-006,2,Archon Vells,Wick Hollat,always_cooperate,grim_trigger,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-006,3,Archon Vells,Wick Hollat,always_cooperate,grim_trigger,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-006,4,Archon Vells,Wick Hollat,always_cooperate,grim_trigger,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-006,5,Archon Vells,Wick Hollat,always_cooperate,grim_trigger,cooperate,cooperate,3,3,15,15,False,1.0
+MATCH-006,6,Archon Vells,Wick Hollat,always_cooperate,grim_trigger,cooperate,cooperate,3,3,18,18,False,1.0
+MATCH-006,7,Archon Vells,Wick Hollat,always_cooperate,grim_trigger,cooperate,cooperate,3,3,21,21,False,1.0
+MATCH-006,8,Archon Vells,Wick Hollat,always_cooperate,grim_trigger,cooperate,cooperate,3,3,24,24,False,1.0
+MATCH-006,9,Archon Vells,Wick Hollat,always_cooperate,grim_trigger,cooperate,cooperate,3,3,27,27,False,1.0
+MATCH-006,10,Archon Vells,Wick Hollat,always_cooperate,grim_trigger,cooperate,cooperate,3,3,30,30,False,1.0
+MATCH-007,1,Serath Kyne,Quonxy,grim_trigger,always_cooperate,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-007,2,Serath Kyne,Quonxy,grim_trigger,always_cooperate,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-007,3,Serath Kyne,Quonxy,grim_trigger,always_cooperate,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-007,4,Serath Kyne,Quonxy,grim_trigger,always_cooperate,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-007,5,Serath Kyne,Quonxy,grim_trigger,always_cooperate,cooperate,cooperate,3,3,15,15,False,1.0
+MATCH-007,6,Serath Kyne,Quonxy,grim_trigger,always_cooperate,cooperate,cooperate,3,3,18,18,False,1.0
+MATCH-007,7,Serath Kyne,Quonxy,grim_trigger,always_cooperate,cooperate,cooperate,3,3,21,21,False,1.0
+MATCH-007,8,Serath Kyne,Quonxy,grim_trigger,always_cooperate,cooperate,cooperate,3,3,24,24,False,1.0
+MATCH-007,9,Serath Kyne,Quonxy,grim_trigger,always_cooperate,cooperate,cooperate,3,3,27,27,False,1.0
+MATCH-007,10,Serath Kyne,Quonxy,grim_trigger,always_cooperate,cooperate,cooperate,3,3,30,30,False,1.0
+MATCH-008,1,Merik Pahl,Pemlik Tross,suspicious_tit_for_tat,random,defect,cooperate,5,0,5,0,False,0.0
+MATCH-008,2,Merik Pahl,Pemlik Tross,suspicious_tit_for_tat,random,cooperate,defect,0,5,5,5,True,0.5
+MATCH-008,3,Merik Pahl,Pemlik Tross,suspicious_tit_for_tat,random,defect,defect,1,1,6,6,False,0.33
+MATCH-008,4,Merik Pahl,Pemlik Tross,suspicious_tit_for_tat,random,defect,defect,1,1,7,7,False,0.25
+MATCH-008,5,Merik Pahl,Pemlik Tross,suspicious_tit_for_tat,random,defect,cooperate,5,0,12,7,False,0.2
+MATCH-008,6,Merik Pahl,Pemlik Tross,suspicious_tit_for_tat,random,cooperate,defect,0,5,12,12,False,0.33
+MATCH-008,7,Merik Pahl,Pemlik Tross,suspicious_tit_for_tat,random,defect,defect,1,1,13,13,False,0.29
+MATCH-008,8,Merik Pahl,Pemlik Tross,suspicious_tit_for_tat,random,defect,defect,1,1,14,14,False,0.25
+MATCH-008,9,Merik Pahl,Pemlik Tross,suspicious_tit_for_tat,random,defect,defect,1,1,15,15,False,0.22
+MATCH-008,10,Merik Pahl,Pemlik Tross,suspicious_tit_for_tat,random,defect,defect,1,1,16,16,False,0.2
+MATCH-009,1,Pemlik Tross,Erris Pol,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-009,2,Pemlik Tross,Erris Pol,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-009,3,Pemlik Tross,Erris Pol,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-009,4,Pemlik Tross,Erris Pol,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-009,5,Pemlik Tross,Erris Pol,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,15,15,True,1.0
+MATCH-009,6,Pemlik Tross,Erris Pol,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,18,18,True,1.0
+MATCH-009,7,Pemlik Tross,Erris Pol,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,21,21,False,1.0
+MATCH-009,8,Pemlik Tross,Erris Pol,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,24,24,False,1.0
+MATCH-009,9,Pemlik Tross,Erris Pol,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,27,27,False,1.0
+MATCH-009,10,Pemlik Tross,Erris Pol,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,30,30,False,1.0
+MATCH-010,1,Boffa Trent,Quonxy,random,random,cooperate,cooperate,3,3,3,3,True,1.0
+MATCH-010,2,Boffa Trent,Quonxy,random,random,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-010,3,Boffa Trent,Quonxy,random,random,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-010,4,Boffa Trent,Quonxy,random,random,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-010,5,Boffa Trent,Quonxy,random,random,cooperate,defect,0,5,12,17,False,1.0
+MATCH-010,6,Boffa Trent,Quonxy,random,random,cooperate,cooperate,3,3,15,20,False,1.0
+MATCH-010,7,Boffa Trent,Quonxy,random,random,defect,defect,1,1,16,21,False,0.86
+MATCH-010,8,Boffa Trent,Quonxy,random,random,cooperate,defect,0,5,16,26,False,0.88
+MATCH-010,9,Boffa Trent,Quonxy,random,random,defect,defect,1,1,17,27,False,0.78
+MATCH-010,10,Boffa Trent,Quonxy,random,random,defect,defect,1,1,18,28,False,0.7
+MATCH-011,1,Kellis Vorn,Grigsu Haldo,always_cooperate,pavlov,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-011,2,Kellis Vorn,Grigsu Haldo,always_cooperate,pavlov,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-011,3,Kellis Vorn,Grigsu Haldo,always_cooperate,pavlov,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-011,4,Kellis Vorn,Grigsu Haldo,always_cooperate,pavlov,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-011,5,Kellis Vorn,Grigsu Haldo,always_cooperate,pavlov,cooperate,cooperate,3,3,15,15,False,1.0
+MATCH-011,6,Kellis Vorn,Grigsu Haldo,always_cooperate,pavlov,cooperate,cooperate,3,3,18,18,False,1.0
+MATCH-011,7,Kellis Vorn,Grigsu Haldo,always_cooperate,pavlov,cooperate,cooperate,3,3,21,21,False,1.0
+MATCH-011,8,Kellis Vorn,Grigsu Haldo,always_cooperate,pavlov,cooperate,cooperate,3,3,24,24,False,1.0
+MATCH-011,9,Kellis Vorn,Grigsu Haldo,always_cooperate,pavlov,cooperate,cooperate,3,3,27,27,False,1.0
+MATCH-011,10,Kellis Vorn,Grigsu Haldo,always_cooperate,pavlov,cooperate,cooperate,3,3,30,30,False,1.0
+MATCH-012,1,Tessyn Mord,Serath Kyne,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-012,2,Tessyn Mord,Serath Kyne,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-012,3,Tessyn Mord,Serath Kyne,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-012,4,Tessyn Mord,Serath Kyne,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-012,5,Tessyn Mord,Serath Kyne,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,15,15,True,1.0
+MATCH-012,6,Tessyn Mord,Serath Kyne,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,18,18,False,1.0
+MATCH-012,7,Tessyn Mord,Serath Kyne,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,21,21,False,1.0
+MATCH-012,8,Tessyn Mord,Serath Kyne,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,24,24,False,1.0
+MATCH-012,9,Tessyn Mord,Serath Kyne,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,27,27,True,1.0
+MATCH-012,10,Tessyn Mord,Serath Kyne,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,30,30,False,1.0
+MATCH-013,1,Hask Berrol,Trinne Goss,always_cooperate,always_cooperate,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-013,2,Hask Berrol,Trinne Goss,always_cooperate,always_cooperate,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-013,3,Hask Berrol,Trinne Goss,always_cooperate,always_cooperate,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-013,4,Hask Berrol,Trinne Goss,always_cooperate,always_cooperate,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-013,5,Hask Berrol,Trinne Goss,always_cooperate,always_cooperate,cooperate,cooperate,3,3,15,15,False,1.0
+MATCH-013,6,Hask Berrol,Trinne Goss,always_cooperate,always_cooperate,cooperate,cooperate,3,3,18,18,False,1.0
+MATCH-013,7,Hask Berrol,Trinne Goss,always_cooperate,always_cooperate,cooperate,cooperate,3,3,21,21,False,1.0
+MATCH-013,8,Hask Berrol,Trinne Goss,always_cooperate,always_cooperate,cooperate,cooperate,3,3,24,24,False,1.0
+MATCH-013,9,Hask Berrol,Trinne Goss,always_cooperate,always_cooperate,cooperate,cooperate,3,3,27,27,False,1.0
+MATCH-013,10,Hask Berrol,Trinne Goss,always_cooperate,always_cooperate,cooperate,cooperate,3,3,30,30,False,1.0
+MATCH-014,1,Linna Cors,Sorel Dunn,always_defect,generous_tit_for_tat,defect,cooperate,5,0,5,0,True,0.0
+MATCH-014,2,Linna Cors,Sorel Dunn,always_defect,generous_tit_for_tat,defect,defect,1,1,6,1,False,0.0
+MATCH-014,3,Linna Cors,Sorel Dunn,always_defect,generous_tit_for_tat,defect,defect,1,1,7,2,False,0.0
+MATCH-014,4,Linna Cors,Sorel Dunn,always_defect,generous_tit_for_tat,defect,defect,1,1,8,3,False,0.0
+MATCH-014,5,Linna Cors,Sorel Dunn,always_defect,generous_tit_for_tat,defect,defect,1,1,9,4,False,0.0
+MATCH-014,6,Linna Cors,Sorel Dunn,always_defect,generous_tit_for_tat,defect,defect,1,1,10,5,False,0.0
+MATCH-014,7,Linna Cors,Sorel Dunn,always_defect,generous_tit_for_tat,defect,cooperate,5,0,15,5,False,0.0
+MATCH-014,8,Linna Cors,Sorel Dunn,always_defect,generous_tit_for_tat,defect,defect,1,1,16,6,False,0.0
+MATCH-014,9,Linna Cors,Sorel Dunn,always_defect,generous_tit_for_tat,defect,defect,1,1,17,7,False,0.0
+MATCH-014,10,Linna Cors,Sorel Dunn,always_defect,generous_tit_for_tat,defect,defect,1,1,18,8,False,0.0
+MATCH-015,1,Torren Gael,Rellen Voss,generous_tit_for_tat,random,cooperate,defect,0,5,0,5,False,1.0
+MATCH-015,2,Torren Gael,Rellen Voss,generous_tit_for_tat,random,defect,defect,1,1,1,6,False,0.5
+MATCH-015,3,Torren Gael,Rellen Voss,generous_tit_for_tat,random,defect,defect,1,1,2,7,False,0.33
+MATCH-015,4,Torren Gael,Rellen Voss,generous_tit_for_tat,random,defect,cooperate,5,0,7,7,True,0.25
+MATCH-015,5,Torren Gael,Rellen Voss,generous_tit_for_tat,random,cooperate,cooperate,3,3,10,10,False,0.4
+MATCH-015,6,Torren Gael,Rellen Voss,generous_tit_for_tat,random,cooperate,cooperate,3,3,13,13,False,0.5
+MATCH-015,7,Torren Gael,Rellen Voss,generous_tit_for_tat,random,cooperate,defect,0,5,13,18,False,0.57
+MATCH-015,8,Torren Gael,Rellen Voss,generous_tit_for_tat,random,defect,defect,1,1,14,19,False,0.5
+MATCH-015,9,Torren Gael,Rellen Voss,generous_tit_for_tat,random,cooperate,defect,0,5,14,24,False,0.56
+MATCH-015,10,Torren Gael,Rellen Voss,generous_tit_for_tat,random,defect,cooperate,5,0,19,24,False,0.5
+MATCH-016,1,Kelleth Mund,Sorel Dunn,suspicious_tit_for_tat,tit_for_tat,defect,cooperate,5,0,5,0,False,0.0
+MATCH-016,2,Kelleth Mund,Sorel Dunn,suspicious_tit_for_tat,tit_for_tat,cooperate,defect,0,5,5,5,False,0.5
+MATCH-016,3,Kelleth Mund,Sorel Dunn,suspicious_tit_for_tat,tit_for_tat,defect,cooperate,5,0,10,5,False,0.33
+MATCH-016,4,Kelleth Mund,Sorel Dunn,suspicious_tit_for_tat,tit_for_tat,cooperate,defect,0,5,10,10,False,0.5
+MATCH-016,5,Kelleth Mund,Sorel Dunn,suspicious_tit_for_tat,tit_for_tat,defect,cooperate,5,0,15,10,False,0.4
+MATCH-016,6,Kelleth Mund,Sorel Dunn,suspicious_tit_for_tat,tit_for_tat,cooperate,defect,0,5,15,15,True,0.5
+MATCH-016,7,Kelleth Mund,Sorel Dunn,suspicious_tit_for_tat,tit_for_tat,defect,cooperate,5,0,20,15,False,0.43
+MATCH-016,8,Kelleth Mund,Sorel Dunn,suspicious_tit_for_tat,tit_for_tat,cooperate,defect,0,5,20,20,False,0.5
+MATCH-016,9,Kelleth Mund,Sorel Dunn,suspicious_tit_for_tat,tit_for_tat,defect,cooperate,5,0,25,20,False,0.44
+MATCH-016,10,Kelleth Mund,Sorel Dunn,suspicious_tit_for_tat,tit_for_tat,cooperate,defect,0,5,25,25,False,0.5
+MATCH-017,1,Brenn Auster,Kelleth Mund,always_cooperate,random,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-017,2,Brenn Auster,Kelleth Mund,always_cooperate,random,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-017,3,Brenn Auster,Kelleth Mund,always_cooperate,random,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-017,4,Brenn Auster,Kelleth Mund,always_cooperate,random,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-017,5,Brenn Auster,Kelleth Mund,always_cooperate,random,cooperate,cooperate,3,3,15,15,False,1.0
+MATCH-017,6,Brenn Auster,Kelleth Mund,always_cooperate,random,cooperate,cooperate,3,3,18,18,False,1.0
+MATCH-017,7,Brenn Auster,Kelleth Mund,always_cooperate,random,cooperate,defect,0,5,18,23,False,1.0
+MATCH-017,8,Brenn Auster,Kelleth Mund,always_cooperate,random,cooperate,cooperate,3,3,21,26,False,1.0
+MATCH-017,9,Brenn Auster,Kelleth Mund,always_cooperate,random,cooperate,cooperate,3,3,24,29,False,1.0
+MATCH-017,10,Brenn Auster,Kelleth Mund,always_cooperate,random,cooperate,cooperate,3,3,27,32,False,1.0
+MATCH-018,1,Tessyn Mord,Grigsu Haldo,tit_for_tat,pavlov,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-018,2,Tessyn Mord,Grigsu Haldo,tit_for_tat,pavlov,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-018,3,Tessyn Mord,Grigsu Haldo,tit_for_tat,pavlov,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-018,4,Tessyn Mord,Grigsu Haldo,tit_for_tat,pavlov,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-018,5,Tessyn Mord,Grigsu Haldo,tit_for_tat,pavlov,cooperate,cooperate,3,3,15,15,False,1.0
+MATCH-018,6,Tessyn Mord,Grigsu Haldo,tit_for_tat,pavlov,cooperate,cooperate,3,3,18,18,False,1.0
+MATCH-018,7,Tessyn Mord,Grigsu Haldo,tit_for_tat,pavlov,cooperate,cooperate,3,3,21,21,False,1.0
+MATCH-018,8,Tessyn Mord,Grigsu Haldo,tit_for_tat,pavlov,cooperate,cooperate,3,3,24,24,False,1.0
+MATCH-018,9,Tessyn Mord,Grigsu Haldo,tit_for_tat,pavlov,cooperate,cooperate,3,3,27,27,False,1.0
+MATCH-018,10,Tessyn Mord,Grigsu Haldo,tit_for_tat,pavlov,cooperate,cooperate,3,3,30,30,False,1.0
+MATCH-019,1,Wick Hollat,Erris Pol,always_defect,always_cooperate,defect,cooperate,5,0,5,0,True,0.0
+MATCH-019,2,Wick Hollat,Erris Pol,always_defect,always_cooperate,defect,cooperate,5,0,10,0,False,0.0
+MATCH-019,3,Wick Hollat,Erris Pol,always_defect,always_cooperate,defect,cooperate,5,0,15,0,False,0.0
+MATCH-019,4,Wick Hollat,Erris Pol,always_defect,always_cooperate,defect,cooperate,5,0,20,0,False,0.0
+MATCH-019,5,Wick Hollat,Erris Pol,always_defect,always_cooperate,defect,cooperate,5,0,25,0,False,0.0
+MATCH-019,6,Wick Hollat,Erris Pol,always_defect,always_cooperate,defect,cooperate,5,0,30,0,False,0.0
+MATCH-019,7,Wick Hollat,Erris Pol,always_defect,always_cooperate,defect,cooperate,5,0,35,0,False,0.0
+MATCH-019,8,Wick Hollat,Erris Pol,always_defect,always_cooperate,defect,cooperate,5,0,40,0,False,0.0
+MATCH-019,9,Wick Hollat,Erris Pol,always_defect,always_cooperate,defect,cooperate,5,0,45,0,False,0.0
+MATCH-019,10,Wick Hollat,Erris Pol,always_defect,always_cooperate,defect,cooperate,5,0,50,0,False,0.0
+MATCH-020,1,Vagabu Olt,Kella Vorn,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,5,0,False,0.0
+MATCH-020,2,Vagabu Olt,Kella Vorn,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,5,5,False,0.5
+MATCH-020,3,Vagabu Olt,Kella Vorn,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,10,5,False,0.33
+MATCH-020,4,Vagabu Olt,Kella Vorn,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,10,10,False,0.5
+MATCH-020,5,Vagabu Olt,Kella Vorn,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,15,10,False,0.4
+MATCH-020,6,Vagabu Olt,Kella Vorn,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,15,15,False,0.5
+MATCH-020,7,Vagabu Olt,Kella Vorn,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,20,15,False,0.43
+MATCH-020,8,Vagabu Olt,Kella Vorn,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,20,20,False,0.5
+MATCH-020,9,Vagabu Olt,Kella Vorn,suspicious_tit_for_tat,pavlov,defect,cooperate,5,0,25,20,False,0.44
+MATCH-020,10,Vagabu Olt,Kella Vorn,suspicious_tit_for_tat,pavlov,cooperate,defect,0,5,25,25,False,0.5
+MATCH-021,1,Kella Vorn,Quonxy,generous_tit_for_tat,always_defect,cooperate,defect,0,5,0,5,False,1.0
+MATCH-021,2,Kella Vorn,Quonxy,generous_tit_for_tat,always_defect,defect,defect,1,1,1,6,False,0.5
+MATCH-021,3,Kella Vorn,Quonxy,generous_tit_for_tat,always_defect,defect,defect,1,1,2,7,False,0.33
+MATCH-021,4,Kella Vorn,Quonxy,generous_tit_for_tat,always_defect,defect,defect,1,1,3,8,False,0.25
+MATCH-021,5,Kella Vorn,Quonxy,generous_tit_for_tat,always_defect,defect,defect,1,1,4,9,False,0.2
+MATCH-021,6,Kella Vorn,Quonxy,generous_tit_for_tat,always_defect,cooperate,defect,0,5,4,14,False,0.33
+MATCH-021,7,Kella Vorn,Quonxy,generous_tit_for_tat,always_defect,defect,defect,1,1,5,15,False,0.29
+MATCH-021,8,Kella Vorn,Quonxy,generous_tit_for_tat,always_defect,defect,defect,1,1,6,16,False,0.25
+MATCH-021,9,Kella Vorn,Quonxy,generous_tit_for_tat,always_defect,defect,defect,1,1,7,17,False,0.22
+MATCH-021,10,Kella Vorn,Quonxy,generous_tit_for_tat,always_defect,cooperate,defect,0,5,7,22,False,0.3
+MATCH-022,1,Kelleth Mund,Sareth Moll,random,grim_trigger,defect,cooperate,5,0,5,0,True,0.0
+MATCH-022,2,Kelleth Mund,Sareth Moll,random,grim_trigger,cooperate,defect,0,5,5,5,False,0.5
+MATCH-022,3,Kelleth Mund,Sareth Moll,random,grim_trigger,cooperate,defect,0,5,5,10,False,0.67
+MATCH-022,4,Kelleth Mund,Sareth Moll,random,grim_trigger,cooperate,defect,0,5,5,15,False,0.75
+MATCH-022,5,Kelleth Mund,Sareth Moll,random,grim_trigger,cooperate,defect,0,5,5,20,False,0.8
+MATCH-022,6,Kelleth Mund,Sareth Moll,random,grim_trigger,cooperate,defect,0,5,5,25,False,0.83
+MATCH-022,7,Kelleth Mund,Sareth Moll,random,grim_trigger,defect,defect,1,1,6,26,False,0.71
+MATCH-022,8,Kelleth Mund,Sareth Moll,random,grim_trigger,defect,defect,1,1,7,27,False,0.62
+MATCH-022,9,Kelleth Mund,Sareth Moll,random,grim_trigger,cooperate,defect,0,5,7,32,False,0.67
+MATCH-022,10,Kelleth Mund,Sareth Moll,random,grim_trigger,cooperate,defect,0,5,7,37,False,0.7
+MATCH-023,1,Rellen Voss,Wick Hollat,generous_tit_for_tat,pavlov,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-023,2,Rellen Voss,Wick Hollat,generous_tit_for_tat,pavlov,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-023,3,Rellen Voss,Wick Hollat,generous_tit_for_tat,pavlov,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-023,4,Rellen Voss,Wick Hollat,generous_tit_for_tat,pavlov,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-023,5,Rellen Voss,Wick Hollat,generous_tit_for_tat,pavlov,cooperate,cooperate,3,3,15,15,False,1.0
+MATCH-023,6,Rellen Voss,Wick Hollat,generous_tit_for_tat,pavlov,cooperate,cooperate,3,3,18,18,False,1.0
+MATCH-023,7,Rellen Voss,Wick Hollat,generous_tit_for_tat,pavlov,cooperate,cooperate,3,3,21,21,False,1.0
+MATCH-023,8,Rellen Voss,Wick Hollat,generous_tit_for_tat,pavlov,cooperate,cooperate,3,3,24,24,False,1.0
+MATCH-023,9,Rellen Voss,Wick Hollat,generous_tit_for_tat,pavlov,cooperate,cooperate,3,3,27,27,False,1.0
+MATCH-023,10,Rellen Voss,Wick Hollat,generous_tit_for_tat,pavlov,cooperate,cooperate,3,3,30,30,False,1.0
+MATCH-024,1,Kelleth Mund,Trinne Goss,grim_trigger,random,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-024,2,Kelleth Mund,Trinne Goss,grim_trigger,random,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-024,3,Kelleth Mund,Trinne Goss,grim_trigger,random,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-024,4,Kelleth Mund,Trinne Goss,grim_trigger,random,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-024,5,Kelleth Mund,Trinne Goss,grim_trigger,random,cooperate,defect,0,5,12,17,False,1.0
+MATCH-024,6,Kelleth Mund,Trinne Goss,grim_trigger,random,defect,defect,1,1,13,18,False,0.83
+MATCH-024,7,Kelleth Mund,Trinne Goss,grim_trigger,random,defect,defect,1,1,14,19,False,0.71
+MATCH-024,8,Kelleth Mund,Trinne Goss,grim_trigger,random,defect,cooperate,5,0,19,19,False,0.62
+MATCH-024,9,Kelleth Mund,Trinne Goss,grim_trigger,random,defect,cooperate,5,0,24,19,False,0.56
+MATCH-024,10,Kelleth Mund,Trinne Goss,grim_trigger,random,defect,defect,1,1,25,20,False,0.5
+MATCH-025,1,Kelleth Mund,Vornis Keth,suspicious_tit_for_tat,suspicious_tit_for_tat,defect,defect,1,1,1,1,False,0.0
+MATCH-025,2,Kelleth Mund,Vornis Keth,suspicious_tit_for_tat,suspicious_tit_for_tat,defect,defect,1,1,2,2,False,0.0
+MATCH-025,3,Kelleth Mund,Vornis Keth,suspicious_tit_for_tat,suspicious_tit_for_tat,defect,defect,1,1,3,3,False,0.0
+MATCH-025,4,Kelleth Mund,Vornis Keth,suspicious_tit_for_tat,suspicious_tit_for_tat,defect,defect,1,1,4,4,False,0.0
+MATCH-025,5,Kelleth Mund,Vornis Keth,suspicious_tit_for_tat,suspicious_tit_for_tat,defect,defect,1,1,5,5,False,0.0
+MATCH-025,6,Kelleth Mund,Vornis Keth,suspicious_tit_for_tat,suspicious_tit_for_tat,defect,defect,1,1,6,6,False,0.0
+MATCH-025,7,Kelleth Mund,Vornis Keth,suspicious_tit_for_tat,suspicious_tit_for_tat,defect,defect,1,1,7,7,False,0.0
+MATCH-025,8,Kelleth Mund,Vornis Keth,suspicious_tit_for_tat,suspicious_tit_for_tat,defect,defect,1,1,8,8,False,0.0
+MATCH-025,9,Kelleth Mund,Vornis Keth,suspicious_tit_for_tat,suspicious_tit_for_tat,defect,defect,1,1,9,9,False,0.0
+MATCH-025,10,Kelleth Mund,Vornis Keth,suspicious_tit_for_tat,suspicious_tit_for_tat,defect,defect,1,1,10,10,False,0.0
+MATCH-026,1,Brenn Auster,Sareth Moll,always_cooperate,always_cooperate,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-026,2,Brenn Auster,Sareth Moll,always_cooperate,always_cooperate,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-026,3,Brenn Auster,Sareth Moll,always_cooperate,always_cooperate,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-026,4,Brenn Auster,Sareth Moll,always_cooperate,always_cooperate,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-026,5,Brenn Auster,Sareth Moll,always_cooperate,always_cooperate,cooperate,cooperate,3,3,15,15,False,1.0
+MATCH-026,6,Brenn Auster,Sareth Moll,always_cooperate,always_cooperate,cooperate,cooperate,3,3,18,18,False,1.0
+MATCH-026,7,Brenn Auster,Sareth Moll,always_cooperate,always_cooperate,cooperate,cooperate,3,3,21,21,False,1.0
+MATCH-026,8,Brenn Auster,Sareth Moll,always_cooperate,always_cooperate,cooperate,cooperate,3,3,24,24,False,1.0
+MATCH-026,9,Brenn Auster,Sareth Moll,always_cooperate,always_cooperate,cooperate,cooperate,3,3,27,27,False,1.0
+MATCH-026,10,Brenn Auster,Sareth Moll,always_cooperate,always_cooperate,cooperate,cooperate,3,3,30,30,False,1.0
+MATCH-027,1,Linna Cors,Brenn Auster,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-027,2,Linna Cors,Brenn Auster,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-027,3,Linna Cors,Brenn Auster,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-027,4,Linna Cors,Brenn Auster,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-027,5,Linna Cors,Brenn Auster,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,15,15,False,1.0
+MATCH-027,6,Linna Cors,Brenn Auster,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,18,18,False,1.0
+MATCH-027,7,Linna Cors,Brenn Auster,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,21,21,False,1.0
+MATCH-027,8,Linna Cors,Brenn Auster,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,24,24,False,1.0
+MATCH-027,9,Linna Cors,Brenn Auster,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,27,27,False,1.0
+MATCH-027,10,Linna Cors,Brenn Auster,pavlov,generous_tit_for_tat,cooperate,cooperate,3,3,30,30,True,1.0
+MATCH-028,1,Sareth Moll,Erris Pol,tit_for_tat,pavlov,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-028,2,Sareth Moll,Erris Pol,tit_for_tat,pavlov,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-028,3,Sareth Moll,Erris Pol,tit_for_tat,pavlov,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-028,4,Sareth Moll,Erris Pol,tit_for_tat,pavlov,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-028,5,Sareth Moll,Erris Pol,tit_for_tat,pavlov,cooperate,cooperate,3,3,15,15,True,1.0
+MATCH-028,6,Sareth Moll,Erris Pol,tit_for_tat,pavlov,cooperate,cooperate,3,3,18,18,False,1.0
+MATCH-028,7,Sareth Moll,Erris Pol,tit_for_tat,pavlov,cooperate,cooperate,3,3,21,21,False,1.0
+MATCH-028,8,Sareth Moll,Erris Pol,tit_for_tat,pavlov,cooperate,cooperate,3,3,24,24,False,1.0
+MATCH-028,9,Sareth Moll,Erris Pol,tit_for_tat,pavlov,cooperate,cooperate,3,3,27,27,False,1.0
+MATCH-028,10,Sareth Moll,Erris Pol,tit_for_tat,pavlov,cooperate,cooperate,3,3,30,30,False,1.0
+MATCH-029,1,Linna Cors,Vagabu Olt,generous_tit_for_tat,always_defect,cooperate,defect,0,5,0,5,False,1.0
+MATCH-029,2,Linna Cors,Vagabu Olt,generous_tit_for_tat,always_defect,defect,defect,1,1,1,6,False,0.5
+MATCH-029,3,Linna Cors,Vagabu Olt,generous_tit_for_tat,always_defect,defect,defect,1,1,2,7,False,0.33
+MATCH-029,4,Linna Cors,Vagabu Olt,generous_tit_for_tat,always_defect,defect,defect,1,1,3,8,False,0.25
+MATCH-029,5,Linna Cors,Vagabu Olt,generous_tit_for_tat,always_defect,defect,defect,1,1,4,9,False,0.2
+MATCH-029,6,Linna Cors,Vagabu Olt,generous_tit_for_tat,always_defect,cooperate,defect,0,5,4,14,False,0.33
+MATCH-029,7,Linna Cors,Vagabu Olt,generous_tit_for_tat,always_defect,defect,defect,1,1,5,15,False,0.29
+MATCH-029,8,Linna Cors,Vagabu Olt,generous_tit_for_tat,always_defect,defect,defect,1,1,6,16,False,0.25
+MATCH-029,9,Linna Cors,Vagabu Olt,generous_tit_for_tat,always_defect,defect,defect,1,1,7,17,False,0.22
+MATCH-029,10,Linna Cors,Vagabu Olt,generous_tit_for_tat,always_defect,defect,defect,1,1,8,18,False,0.2
+MATCH-030,1,Josten Dray,Brev Tannik,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,3,3,False,1.0
+MATCH-030,2,Josten Dray,Brev Tannik,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,6,6,False,1.0
+MATCH-030,3,Josten Dray,Brev Tannik,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,9,9,False,1.0
+MATCH-030,4,Josten Dray,Brev Tannik,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,12,12,False,1.0
+MATCH-030,5,Josten Dray,Brev Tannik,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,15,15,False,1.0
+MATCH-030,6,Josten Dray,Brev Tannik,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,18,18,False,1.0
+MATCH-030,7,Josten Dray,Brev Tannik,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,21,21,False,1.0
+MATCH-030,8,Josten Dray,Brev Tannik,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,24,24,False,1.0
+MATCH-030,9,Josten Dray,Brev Tannik,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,27,27,False,1.0
+MATCH-030,10,Josten Dray,Brev Tannik,generous_tit_for_tat,generous_tit_for_tat,cooperate,cooperate,3,3,30,30,False,1.0
